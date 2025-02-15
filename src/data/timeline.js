@@ -1,9 +1,15 @@
 const timeline = [
     {
-        year: '2024',
-        title: 'Peer Tutor @ SCI',
+        year: '2025',
+        title: 'Peer Tutoring @ SCI',
         duration: 'present day',
         details: 'Hosting tutoring sessions for select CMPINF and CS courses.'
+    },
+    {
+        year: '2025',
+        title: 'First Hackathon',
+        duration: '2 weeks',
+        details: 'Won an Honorable Mention for a group project on AI political deepfake detection.'
     },
     {
         year: '2024',
