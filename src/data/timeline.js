@@ -2,7 +2,7 @@ const timeline = [
     {
         year: '2025',
         title: 'Peer Tutoring @ University of Pittsburgh, SCI',
-        duration: 'Present',
+        duration: 'present day',
         details: 'Providing one-on-one and group tutoring sessions for CMPINF and CS courses, helping students strengthen their programming and problem-solving skills. Leveraging past coursework and real-world experience to mentor peers and improve their understanding of complex concepts in Java, Python, and data structures.'
     },
     {
@@ -13,7 +13,7 @@ const timeline = [
     },
     {
         year: '2024',
-        title: 'SWE Intern @ AGi/AssetGenie',
+        title: 'SWE Internship @ AGi/AssetGenie',
         duration: '2 months',
         details: 'Developed dynamic Python automation tools integrated with GitLab and Excel writers to optimize data processing workflows. Gained experience in data engineering, scripting, and backend development while collaborating with a fast-paced engineering team to enhance operational efficiency.'
     },
@@ -25,16 +25,17 @@ const timeline = [
     },
     {
         year: '2022',
-        title: 'First Line of Code',
-        duration: 'The Beginning',
-        details: 'Took my first programming course in high school through a CHS (College in High School) program. This sparked my interest in software development and problem-solving, eventually leading to my deep dive into AI, full-stack development, and data science.'
-    },
-    {
-        year: '2022',
         title: 'Warehouse Associate @ FSP Inc.',
         duration: '1 year 6 months',
         details: 'Managed inventory and logistics for over 25+ NAPA automotive stores, gaining hands-on experience with data tracking, physical inventory systems, and supply chain operations. This job reinforced my ability to work efficiently in structured environments and solve logistical challenges.'
-    }
+    },
+    {
+        year: '2022',
+        title: 'First Line of Code – Intro to Java Programming',
+        duration: 'the beginning',
+        details: 'Took my first programming course in high school through a CHS (College in High School) program. This sparked my interest in software development and problem-solving, eventually leading to my deep dive into AI, full-stack development, and data science.'
+    },
+    
 ];
 
 export default timeline;
