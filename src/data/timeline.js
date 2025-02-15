@@ -1,7 +1,7 @@
 const timeline = [
     {
         year: '2025',
-        title: 'Peer Tutor @ University of Pittsburgh, SCI',
+        title: 'Peer Tutoring @ University of Pittsburgh, SCI',
         duration: 'Present',
         details: 'Providing one-on-one and group tutoring sessions for CMPINF and CS courses, helping students strengthen their programming and problem-solving skills. Leveraging past coursework and real-world experience to mentor peers and improve their understanding of complex concepts in Java, Python, and data structures.'
     },
@@ -13,7 +13,7 @@ const timeline = [
     },
     {
         year: '2024',
-        title: 'Software Engineering Intern @ AGi/AssetGenie',
+        title: 'SWE Intern @ AGi/AssetGenie',
         duration: '2 months',
         details: 'Developed dynamic Python automation tools integrated with GitLab and Excel writers to optimize data processing workflows. Gained experience in data engineering, scripting, and backend development while collaborating with a fast-paced engineering team to enhance operational efficiency.'
     },
