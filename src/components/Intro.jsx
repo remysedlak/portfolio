@@ -10,11 +10,10 @@ function Intro() {
                 A passionate developer with a love for creating amazing web experiences.
             </p>
             <p className="text-base md:text-lg mb-3 max-w-xl">
-                Currently pursuing a degree in Computer Science at XYZ University. 
-                I have a strong interest in web development, particularly in building 
-                responsive and interactive user interfaces. My coursework has provided 
-                me with a solid foundation in programming principles, algorithms, and 
-                software engineering practices.
+            Currently studying Computer Science and Psychology at the University of Pittsburgh. 
+            I'm passionate about problem-solving at the intersection of technology and human behavior, 
+            with a strong focus on AI, data analysis, and user experience design. 
+            I enjoy tackling complex challenges and building innovative applications that improve people's lives.
             </p>
         </div>
     );
