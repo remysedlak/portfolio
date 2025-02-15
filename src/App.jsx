@@ -34,7 +34,7 @@ function App() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-6 h-6 text-black dark:text-white"
+      className="w-6 h-6 text-black dark:text-white opacity-40"
     >
       <path
         strokeLinecap="round"
@@ -51,7 +51,7 @@ function App() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-6 h-6 text-black dark:text-white"
+      className="w-6 h-6 text-black dark:text-white opacity-40"
     >
       <path
         strokeLinecap="round"
@@ -63,15 +63,17 @@ function App() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={handleThemeSwitch}
-        className="fixed z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-2 rounded-md"
-      >
-        {theme === 'dark' ? sun : moon}
-      </button>
-      
-      <div className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white min-h-screen font-inter">
+      <div className="sticky top-0 z-10 bg-white dark:bg-gray-900 p-4">
+        <button
+          type="button"
+          onClick={handleThemeSwitch}
+          className="bg-violet-300 dark:bg-orange-300 text-lg p-2 rounded-md"
+        >
+          {theme === 'dark' ? sun : moon}
+        </button>
+      </div>
+
+      <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-white min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
