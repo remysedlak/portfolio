@@ -73,7 +73,7 @@ function App() {
         </button>
       </div>*/}
 
-      <div className="bg-violet-300 dark:bg-orange-300 text-lg p-2 rounded-md">
+      <div className="bg-sky-200 dark:bg-orange-300 text-lg p-2 rounded-md">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />

@@ -33,7 +33,8 @@ const timeline = [
         year: '2022',
         title: 'Warehouse Associate',
         duration: '1 year 6 months',
-        details: 'Scanned lots of NAPA automotive parts to be distributed to over 25+ stores'
+        details: 'Scanned lots of NAPA automotive parts to be distributed to over 25+ stores. ' +
+                'This job taught me a lot about the inventory process, and how operations work on physical data.'
     }
 ];
 
