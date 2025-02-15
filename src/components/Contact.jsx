@@ -30,8 +30,9 @@ function Contact(){
                             className="mb-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
                             >
                         </textarea>
-                        <button type="button" className="text-center inline-block  px-8 py-3 w-max text-base font-medium text-white rounded-md bg-gradient-to-r from-yellow-500 to-blue-500 drop-shadow-md hover:stroke-white">
-                            Work with me
+                        <button type="submit" className="text-center inline-block  px-8 py-3 w-max text-base font-medium text-white rounded-lg 
+                        bg-gray-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
+                            Send message
                         </button>
                 </form>
             </div >
