@@ -19,19 +19,19 @@ const timeline = [
     },
     {
         year: '2023',
-        title: 'Computer Science & Psychology Student @ University of Pittsburgh',
+        title: 'CS & Psychology BS @ University of Pittsburgh',
         duration: '4 years',
         details: 'Pursuing a double major in Computer Science and Psychology to bridge the gap between technology and human behavior. Conducting independent projects in AI, UX design, and music technology while applying interdisciplinary knowledge to real-world problem-solving.'
     },
     {
         year: '2022',
-        title: 'First Line of Code – Intro to Java Programming',
+        title: 'First Line of Code',
         duration: 'The Beginning',
         details: 'Took my first programming course in high school through a CHS (College in High School) program. This sparked my interest in software development and problem-solving, eventually leading to my deep dive into AI, full-stack development, and data science.'
     },
     {
         year: '2022',
-        title: 'Warehouse Associate @ Fayette Service Parts Inc.',
+        title: 'Warehouse Associate @ FSP Inc.',
         duration: '1 year 6 months',
         details: 'Managed inventory and logistics for over 25+ NAPA automotive stores, gaining hands-on experience with data tracking, physical inventory systems, and supply chain operations. This job reinforced my ability to work efficiently in structured environments and solve logistical challenges.'
     }
