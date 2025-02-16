@@ -8,7 +8,7 @@ const portfolio = [
     {
         imgUrl: 'assets/reflexa.jpg',
         title: 'Reflexa',
-        stack: ['React', 'Django', 'Postgres','AWS EC2'],
+        stack: ['React', 'Django', 'AWS EC2'],
         link: 'https://github.com/remysedlak/Reflexa'
     },
 
