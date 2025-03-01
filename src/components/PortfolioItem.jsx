@@ -11,7 +11,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
                 alt={title}
                 className="w-full h-36 md:h-38 object-cover"
             />
-            </a>
+            
             
             <div className="w-full p-4">
                 <h3 className="text-lg text-center md:text-xl mb-2 md:mb-3 font-semibold">{title}</h3>
@@ -27,6 +27,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
                 <div className="flex justify-center mt-4">
                 </div>
             </div>
+            </a>
         </div>
     );
 }

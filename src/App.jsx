@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-
       <div className="bg-sky-200 dark:bg-orange-300 text-lg p-2 rounded-md">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
