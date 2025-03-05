@@ -18,6 +18,13 @@ const portfolio = [
         stack: ['Python', 'Librosa', 'Tkinter'],
         link:'https://github.com/remysedlak/tkinter-audio-analysis'
     },
+
+    {
+        imgUrl: 'assets/audio-hub.jpg',
+        title: 'Audio Hub',
+        stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
+        link:'https://github.com/remysedlak/audio-hub'
+    },
     // Add more projects as needed
 ];
 export default portfolio;
