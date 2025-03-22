@@ -25,6 +25,12 @@ const portfolio = [
         stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
         link:'https://github.com/remysedlak/audio-hub'
     },
+    {
+        imgUrl: 'assets/journallogger.jpg',
+        title: 'journalLogger',
+        stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
+        link:'https://github.com/remysedlak/tailwind-journal'
+    },
     // Add more projects as needed
 ];
 export default portfolio;
