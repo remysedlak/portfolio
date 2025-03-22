@@ -1,6 +1,13 @@
 const timeline = [
     {
         year: '2025',
+        title: 'Hackathon @ the Governor\'s Residence',
+        duration: 'present day',
+        details: `Continuing our hackathon project from February, Devon and I were given the chance to present our Deepfake Detector in Harrisburg to more judges & the First Lady, Lori Shapiro. The governor's residence was eye-dropping, and it was great to hear more about the importance of AI ethics in the real world.
+        It was also a great opportunity to network/reconnect with other students from before.`
+    },
+    {
+        year: '2025',
         title: 'Peer Tutoring @ University of Pittsburgh, SCI',
         duration: 'present day',
         details: 'Providing one-on-one and group tutoring sessions for CMPINF and CS courses, helping students strengthen their programming and problem-solving skills. Leveraging past coursework and real-world experience to mentor peers and improve their understanding of complex concepts in Java, Python, and data structures.'
