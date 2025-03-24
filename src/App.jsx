@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="text-lg p-2 rounded-md width-screen bg-blue-25 scroll-smooth">
+      <div className="text-lg p-2 rounded-md width-screen bg-blue-25 scroll-smooth ">
         <div className="width-full mx-auto scroll-smooth">
           <nav className="hidden lg:flex justify-between items-center p-4 scroll-smooth mx-4">
             <div className="text-2xl font-bold text-gray-800">Hi, I am Remy Sedlak!</div>
