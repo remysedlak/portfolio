@@ -8,11 +8,11 @@ function Intro() {
                     md:mb-6 font-bold">Remy Sedlak</h1>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row justify-between items-center">
                 <div className=" flex flex-col justify-around pr-5">
-                    <p className="text-base md:text-xl mb-3 font-medium">
+                    <p className="text-base md:text-xl mb-3 font-medium text-center md:text-left">
                     Innovating at the crossroads of psychology and technology 
                     <br/>to create impactful digital experiences.
                     </p>
-                    <p className="text-base md:text-lg mb-3 max-w-xl">
+                    <p className="text-base md:text-lg mb-3 max-w-xl text-center md:text-left">
                         Currently pursuing a B.S. in Computer Science and 
                         Psychology at the University of Pittsburgh, I 
                         specialize in AI, data analysis, and UX design. 
