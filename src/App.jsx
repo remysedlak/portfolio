@@ -27,6 +27,7 @@ function App() {
           <hr/>
           
           <Intro />
+          
           <div id="portfolio">
             <Portfolio />
           </div>
