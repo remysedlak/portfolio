@@ -24,7 +24,7 @@ function App() {
               <button onClick={() => scrollToSection('contact')} className="text-gray-800 hover:text-gray-600 scroll-smooth">Contact</button>
             </div>
           </nav>
-          <hr/>
+          
           
           <Intro />
           
