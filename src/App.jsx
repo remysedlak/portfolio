@@ -13,15 +13,15 @@ function App() {
 
   return (
     <>
-      <div className="text-lg p-2 rounded-md width-screen bg-blue-25 scroll-auto">
-        <div className="width-full mx-auto scroll-auto">
-          <nav className="hidden lg:flex justify-between items-center p-4 scroll-auto">
+      <div className="text-lg p-2 rounded-md width-screen bg-blue-25 scroll-smooth">
+        <div className="width-full mx-auto scroll-smooth">
+          <nav className="hidden lg:flex justify-between items-center p-4 scroll-smooth">
             <div className="text-2xl font-bold text-gray-800">Hi, I am Remy Sedlak!</div>
             <div className="flex space-x-4">
-              <button onClick={() => scrollToSection('portfolio')} className="text-gray-800 hover:text-gray-600 scroll-auto">Portfolio</button>
-              <button onClick={() => scrollToSection('timeline')} className="text-gray-800 hover:text-gray-600 scroll-auto">Timeline</button>
+              <button onClick={() => scrollToSection('portfolio')} className="text-gray-800 hover:text-gray-600 scroll-smooth">Portfolio</button>
+              <button onClick={() => scrollToSection('timeline')} className="text-gray-800 hover:text-gray-600 scroll-smooth">Timeline</button>
               <a href="https://remymane.com/" className="text-gray-800 hover:text-gray-600">My Music</a>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-800 hover:text-gray-600 scroll-auto">Contact</button>
+              <button onClick={() => scrollToSection('contact')} className="text-gray-800 hover:text-gray-600 scroll-smooth">Contact</button>
             </div>
           </nav>
           <hr/>
