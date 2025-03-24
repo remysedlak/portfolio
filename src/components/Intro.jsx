@@ -11,7 +11,7 @@ function Intro() {
                         Innovating at the crossroads of psychology and technology 
                         <br/>to create impactful digital experiences.
                     </p>
-                    <p className="text-base md:text-lg mb-3 max-w-xl text-center md:text-left">
+                    <p className="text-base md:text-md mb-3 max-w-xl text-center md:text-left">
                         Currently pursuing a B.S. in Computer Science and 
                         Psychology at the University of Pittsburgh, I 
                         specialize in AI, data analysis, and UX design. 
