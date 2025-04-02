@@ -1,8 +1,8 @@
 const timeline = [
     {
         year: '2025',
-        title: 'Presenting @ the Governor\'s Residence',
-        duration: 'present day',
+        title: 'Visiting Harrisburg',
+        duration: 'present',
         details: `Continuing our hackathon project from February, Devon and I were honored to present our Deepfake Detector in Harrisburg to a panel of judges, including Pennsylvania’s First Lady, Lori Shapiro. 
         The governor’s residence was breathtaking, and the event emphasized the growing importance of AI ethics in real-world applications. 
         It was an invaluable opportunity to receive feedback from industry leaders, expand our professional network, and reconnect with fellow innovators in the field of AI security.`
@@ -10,14 +10,14 @@ const timeline = [
     {
         year: '2025',
         title: 'Tutoring for SCI',
-        duration: 'present day',
+        duration: 'present',
         details: `Providing one-on-one and group tutoring sessions for CMPINF and CS courses at the University of Pittsburgh, guiding students through fundamental and advanced programming concepts.
         Leveraging past coursework and industry experience to mentor peers in Java, Python, and data structures. 
         Helping students strengthen their problem-solving skills, debug efficiently, and gain confidence in their coding abilities.`
     },
     {
         year: '2025',
-        title: 'Hacking4Humanity (First Hackathon)',
+        title: 'First Hackathon',
         duration: '2 weeks',
         details: `Competed in Hacking4Humanity, a hackathon focused on AI for social good, where I collaborated with a team to develop an AI-powered deepfake detection model.
         Using a MesoNet-based architecture in TensorFlow/Keras, our project classified images of politicians as real or AI-generated. 
@@ -42,7 +42,7 @@ const timeline = [
     {
         year: '2022',
         title: 'Warehousing @ NAPA',
-        duration: '1 year 6 months',
+        duration: 'highschool',
         details: `Worked as a warehouse associate at Fayette Service Parts Inc., managing inventory for over 25+ NAPA automotive stores.
         Gained experience in logistics, supply chain operations, and data tracking, ensuring accurate inventory management in a high-demand environment.
         Developed strong problem-solving skills by troubleshooting logistical challenges and optimizing warehouse efficiency.`
@@ -50,7 +50,7 @@ const timeline = [
     {
         year: '2021',
         title: 'First Line of Code',
-        duration: 'The Beginning',
+        duration: 'the beginning',
         details: `Took my first programming course through a College in High School (CHS) program, sparking my passion for software development.
         Started with fundamental programming concepts and quickly became fascinated with problem-solving, leading to deeper explorations in AI, full-stack development, and data science.
         This moment marked the foundation of my journey into technology, setting the stage for future projects and innovations.`
