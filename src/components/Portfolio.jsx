@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <>
         <div className="border">
-            <div className="flex items-center justify-center flex-col text-center">
+            <div className="flex items-center justify-center flex-col text-center px-4">
             <Title>Projects</Title>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center">
