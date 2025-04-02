@@ -14,20 +14,20 @@ function Contact(){
                             type="text"
                             name="name"
                             placeholder="Name"
-                            className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                            className="p-2 bg-transparent border-2 border-black rounded-md focus:outline-none"
                         />
                         <input
                             type="text"
                             name="email"
                             placeholder="Email Address"
-                            className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                            className="my-2 p-2 bg-transparent border-2 border-black  rounded-md focus:outline-none"
                         />
                         <textarea
                             name="message"
                             placeholder="Message"
                             cols="30"
                             rows="10"
-                            className="mb-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                            className="mb-4 p-2 bg-transparent border-2 rounded-md focus:outline-none border-black"
                             >
                         </textarea>
                         <button type="submit" className="text-center inline-block  px-8 py-3 w-max text-base font-medium text-white rounded-lg 
