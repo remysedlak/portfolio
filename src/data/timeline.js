@@ -33,7 +33,7 @@ const timeline = [
     },
     {
         year: '2023',
-        title: 'Double Majoring @ Pitt',
+        title: 'Undergrad @ Pitt',
         duration: '4 years',
         details: `Pursuing a B.S. in Computer Science and Psychology at the University of Pittsburgh, with a focus on the intersection of technology and human behavior.
         Applying interdisciplinary knowledge to real-world projects in AI, UX design, and music technology.
