@@ -16,7 +16,7 @@ function App() {
       <div className="text-xl p-2 rounded-md width-screen bg-gray-200 scroll-smooth font-garamond">
         <div className="width-full mx-auto scroll-smooth">
           <nav className="hidden lg:flex justify-between items-center p-4 scroll-smooth mx-4 border rounded-md">
-            <div className="text-3xl text-gray-800 font-bold">Remy Sedlak</div>
+            <div className="text-3xl text-gray-800 font-semibold">Remy Sedlak</div>
             <div className="flex space-x-4">
               <button onClick={() => window.open('https://drive.google.com/file/d/1-gW3kevUAv6ImxSWIZgw-VO9A38-KFCk/view', '_blank')} className="text-gray-800 hover:text-gray-500">Resume</button>
               <button onClick={() => scrollToSection('portfolio')} className="text-gray-800 hover:text-gray-500 scroll-smooth">Portfolio</button>

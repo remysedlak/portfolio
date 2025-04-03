@@ -2,8 +2,8 @@ import React from 'react';
 
 function Intro() {
     return (
-        <div className="flex items-center justify-center flex-col text-center py-10">
-            <h1 className="block lg:hidden text-5xl md:text-7xl mb-3 md:mb-6 font-bold">Remy Sedlak</h1>
+        <div className="flex items-center justify-center flex-col text-center lg:py-10">
+            <h1 className="block lg:hidden text-5xl md:text-7xl my-3 md:my-6 font-semibold">Remy Sedlak</h1>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <img src="/assets/remysedlak_image.jpg" alt="Remy Sedlak" className="w-60 h-60 rounded-full mt-5 lg:mt-0 lg:mr-10 lg:ml-10 bg-white h-full" />
                 <div className="flex flex-col justify-around w-full border rounded-md p-4">
