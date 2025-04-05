@@ -1,55 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import Title from './Title';
-
-
-    function Intro() {
-        const [text, setText] = useState("");
-        const fullText = "Heello, I'm Remy!";
-        const typingSpeed = 100; // Adjust typing speed in ms
-
-        useEffect(() => {
-            let index = 0;
-            const interval = setInterval(() => {
-                setText((prev) => prev + fullText[index]);
-                index++;
-                if (index === fullText.length-1) {
-                    clearInterval(interval);
-                }
-            }, typingSpeed);
-
-            return () => clearInterval(interval);
-        }, []);
-
-        return (
-            <div className="flex items-center justify-center flex-col text-center pt-10">
-            <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl my-3 md:my-6 font-semibold">{text}</h1>
-            <img
-                src="/assets/remysedlak_image.jpg"
-                alt="Remy Sedlak"
-                className="sm:hidden block h-48 w-48 mt-8 rounded-lg"
-            />
-            <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
-                <div className="flex flex-col justify-around w-full rounded-md p-4 text-center">
-                <p className="text-base text-xl md:text-xl lg:text-2xl mt-2 max-w-3xl text-center">
-                    Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
-                    I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
-                </p>
-                <div className="flex flex-col h-8 items-center my-8 p-4 sm:mb-20 mb-16">
-                    <p className="text-2xl">My Stack:</p>
-                    <div className="flex flex-wrap justify-center my-4 gap-x-2 gap-y-2 lg:gap-x-4 lg:gap-y-4">
-                        <span className="px-3 py-1 bg-blue-100 text-black rounded-full text-lg font-medium">React</span>
-                        <span className="px-3 py-1 bg-yellow-100 text-black rounded-full text-lg font-medium">Vite</span>
-                        <span className="px-3 py-1 bg-indigo-100 text-black rounded-full text-lg font-medium">Tailwind</span>
-                        <span className="px-3 py-1 bg-green-100 text-black rounded-full text-lg font-medium">Django</span>
-                        <span className="px-3 py-1 bg-purple-100 text-black rounded-full text-lg font-medium">Postgres</span>
-                        <span className="px-3 py-1 bg-red-100 text-black rounded-full text-lg font-medium">AWS</span>
-                        
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div className="sm:hidden block flex flex-row space-x-12 py-8 mt-16">
+const SocialIcons = () => {
+    return (
+        <div className="sm:hidden block flex flex-row space-x-12 py-8 mt-16">
                 <a
                 href="https://www.linkedin.com/in/remysedlak/"
                 target="_blank"
@@ -105,11 +58,6 @@ import Title from './Title';
                 </svg>
                 </a>
             </div>
-            </div>
-        );
-    }
-
-
-
-
-export default Intro;
+    )
+};
+export default SocialIcons;

@@ -36,8 +36,7 @@ const timeline = [
         title: 'Undergrad @ Pitt',
         duration: '4 years',
         details: `Pursuing a B.S. in Computer Science and Psychology at the University of Pittsburgh, with a focus on the intersection of technology and human behavior.
-        Applying interdisciplinary knowledge to real-world projects in AI, UX design, and music technology.
-        Engaged in research on friendship satisfaction, mindset framing, and AI-driven music sampling, bridging cognitive science with computational methods.`
+        Applying interdisciplinary knowledge to real-world projects in AI, UX design, and music technology.`
     },
     {
         year: '2022',

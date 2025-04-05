@@ -11,7 +11,7 @@ const portfolio = [
         title: 'Reflexa',
         stack: ['React', 'Django', 'Postgres', 'AWS EC2'],
         link: 'https://github.com/remysedlak/Reflexa',
-        desc: 'Reflexa is a full stack web application designed to track mental health journal entries.'
+        desc: 'Reflexa is a full stack web application designed to track mental health journal entries. Data analysis is evaluated on journal content and reported emotion.'
     },
 
     {
@@ -19,7 +19,7 @@ const portfolio = [
         title: 'TkinterAudio',
         stack: ['Python', 'Librosa', 'Tkinter'],
         link:'https://github.com/remysedlak/tkinter-audio-analysis',
-        desc: 'This Tkinter desktop GUI inputs an audio file and outputs many plots extracting audio features via Librosa.'
+        desc: 'This Tkinter desktop GUI inputs an audio file and outputs many plots extracting audio features via Librosa. Desktop app also includes a media player.'
     },
 
     {
@@ -34,7 +34,7 @@ const portfolio = [
         title: 'journalLogger',
         stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
         link:'https://github.com/remysedlak/tailwind-journal',
-        desc: 'This webapp is designed record journal entries. There is a quick lookup feature implemented aswell.'
+        desc: 'This webapp is designed record journal user entries. The app works completely offline and allows quick lookup due to the browser cache.'
     },
     // Add more projects as needed
 ];

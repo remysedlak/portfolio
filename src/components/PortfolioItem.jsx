@@ -10,7 +10,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                     <div className="h-3 w-3 bg-green-500 rounded-full"></div>
                 </div>
 
-                <h3 className="text-md mx-auto pr-5">{title}</h3>
+                <h3 className="text-md mx-auto pr-5 font-semibold">{title}</h3>
             </div>
             <img
                 src={imgUrl}
@@ -21,10 +21,12 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
             <div className="absolute inset-0 bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center text-gray-900 text-center">
                 <div className="flex flex-col h-full w-full px-2">
                     <div className="items-center my-1">
-                        <h3 className="text-xl font-semibold">{title}</h3>
+                        <a href={link}>
+                            <h3 className="text-xl font-semibold underline text-blue-600 hover:text-blue-400 border border-rounded">{title}</h3>
+                        </a>
                     </div>
                     <div className="flex-grow">
-                        <p className="text-sm text-gray-900">
+                        <p className="text-sm lg:text-sm text-gray-900">
                             {desc}
                         </p>
                     </div>
@@ -32,7 +34,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                         {Array.isArray(stack) ? stack.map((item, index) => (
                             <span
                                 key={index}
-                                className="text-gray-800 text-sm border rounded-lg bg-gray-100 p-1 border-black"
+                                className="text-gray-800 text-sm md:text-xs lg:text-sm border rounded-lg bg-gray-100 p-1 border-black"
                             >
                                 {item.trim()}
                             </span>

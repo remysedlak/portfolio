@@ -10,7 +10,7 @@ function Portfolio() {
             <Title>Projects</Title>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center mx-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
                     {portfolio.map((project, index) => (
                         <PortfolioItem 
                             key={index} // Add a unique key prop
