@@ -21,7 +21,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                 <div className="flex flex-col h-full w-full px-2">
                     <div className="items-center py-1">
                         <h3 className="text-xl font-semibold underline">
-                            <a href={link} className="mx-auto text-blue-800 hover:text-blue-700">
+                            <a href={link} className="mx-auto text-blue-800 hover:text-blue-500">
                                 {title}
                             </a>
                         </h3>
