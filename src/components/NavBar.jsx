@@ -46,7 +46,7 @@ const NavBar = () => {
             />
             <div className="justify-bottom position-bottom flex flex-col mt-4">
                 <div className="text-lg text-black font-semibold mb-1">Remy Sedlak</div>
-                <div className="flex flex-col text-black underline">
+                <div className="flex flex-col text-gray-700 underline">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')

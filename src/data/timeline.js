@@ -5,22 +5,20 @@ const timeline = [
         duration: 'present',
         details: `Continuing our hackathon project from February, Devon and I were honored to present our Deepfake Detector in Harrisburg to a panel of judges, including Pennsylvania’s First Lady, Lori Shapiro. 
         The governor’s residence was breathtaking, and the event emphasized the growing importance of AI ethics in real-world applications. 
-        It was an invaluable opportunity to receive feedback from industry leaders, expand our professional network, and reconnect with fellow innovators in the field of AI security.`
+        `
     },
     {
         year: '2025',
         title: 'Tutoring for SCI',
         duration: 'present',
-        details: `Providing one-on-one and group tutoring sessions for CMPINF and CS courses at the University of Pittsburgh, guiding students through fundamental and advanced programming concepts.
-        Leveraging past coursework and industry experience to mentor peers in Java, Python, and data structures. 
-        Helping students strengthen their problem-solving skills, debug efficiently, and gain confidence in their coding abilities.`
+        details: `During my sophomore year, I started providing one-on-one tutoring sessions for CMPINF and CS courses at Pitt, guiding students through fundamental and advanced programming concepts.
+        This opportunity has allowed me to strengthen students' problem-solving and debug skills, while I strengthen my own communication.`
     },
     {
         year: '2025',
         title: 'First Hackathon',
         duration: '2 weeks',
-        details: `Competed in Hacking4Humanity, a hackathon focused on AI for social good, where I collaborated with a team to develop an AI-powered deepfake detection model.
-        Using a MesoNet-based architecture in TensorFlow/Keras, our project classified images of politicians as real or AI-generated. 
+        details: `I competed in Hacking4Humanity 2025, a hackathon focused on AI for social good, where I collaborated with a team to develop an AI-powered deepfake detection model.
         The project earned an Honorable Mention, and this experience deepened my passion for AI ethics, adversarial machine learning, and responsible AI development.`
     },
     {
