@@ -9,14 +9,14 @@ import './tailwind.css'; // Ensure Tailwind CSS is imported
 
 function App() {
   const [sideBar, setSideBar] = useState(true);
-  const [buttonClass, setButtonClass] = useState("w-12 h-12 opacity-20 hover:opacity-50");
+  const [buttonClass, setButtonClass] = useState("opacity-20 hover:opacity-50");
 
   const toggleSidebar = () => {
     setSideBar(!sideBar);
     if(sideBar)
-      setButtonClass("w-12 h-12 opacity-50 hover:opacity-20")
+      setButtonClass("opacity-50 hover:opacity-20")
     else
-      setButtonClass("w-12 h-12 opacity-20 hover:opacity-50")
+      setButtonClass("opacity-20 hover:opacity-50")
   };
 
   return (
@@ -30,9 +30,9 @@ function App() {
           <div className={`hidden sm:block fixed top-4 left-4 ${sideBar ? 'ml-40' : ''}`}>
             <button onClick={toggleSidebar}>
               <img
-                src="./public/assets/sidebar-svgrepo-com.svg"
-                alt="Sidebar Icon"
-                className={buttonClass}
+                src="/assets/sidebar-svgrepo-com.svg"
+                alt="Hide or Show Navigation Bar"
+                className={buttonClass+" w-8 h-8 md:w-10 md:h-10  xl:w-12 xl:h-12 "}
               />
             </button>
           </div>
