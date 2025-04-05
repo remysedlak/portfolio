@@ -40,10 +40,10 @@ import Title from './Title';
                         <p className="text-base md:text-ml mb-1 max-w-xl text-center md:text-left">
                         Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
                         <br/>
-                            I’ve developed <b>applications</b> that enhance <b>mental health </b>
-                            journaling, analyzed <b>deepfake detection</b> models, and 
-                            engineered <b>full-stack</b> solutions that improve <b>user 
-                            engagement</b>.
+                            I’ve developed applications that enhance <b>mental health</b> journaling, 
+                            analyzed <b>deepfake detection</b> models, and 
+                            engineered <b>full-stack solutions</b> that improve user 
+                            engagement.
                         </p>
                     </div>
                     
