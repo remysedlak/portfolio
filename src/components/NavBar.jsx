@@ -38,7 +38,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="hidden sm:block bg-gray-300 fixed top-0 left-0 w-40 p-4 text- h-full flex flex-col justify-top font-garamond">
+        <nav className="hidden sm:block bg-gray-200 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
@@ -46,7 +46,7 @@ const NavBar = () => {
             />
             <div className="justify-bottom position-bottom flex flex-col mt-4">
                 <div className="text-lg text-black font-semibold mb-1">Remy Sedlak</div>
-                <div className="flex flex-col text-gray-700">
+                <div className="flex flex-col text-gray-700 text-lg">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
@@ -76,7 +76,7 @@ const NavBar = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col space-y-3 lg:space-y-6 justify-center h-1/3 text-left mt-10 lg:mt-20">
+            <div className="flex flex-col space-y-3 md:space-y-1 lg:space-y-4 justify-top h-1/3 text-left text-md md:text-lg lg:text-xl  mt-8 md:mt-8 lg:mt-16">
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${

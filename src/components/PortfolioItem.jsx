@@ -3,14 +3,14 @@ import React from 'react';
 function PortfolioItem({ imgUrl, title, stack, link, desc }) {
     return (
         <div className="relative group border-2 rounded-lg overflow-hidden border-black">
-            <div className="flex flex-row items-center justify-between absolute top-0 left-0 w-full bg-gray-100 bg-opacity-100 text-black border-b-2 border-black text-left pl-5 py-2">
+            <div className="flex flex-row items-center justify-between absolute top-0 left-0 w-full bg-gray-100 bg-opacity-100 text-black border-b-2 border-black text-left pl-5 py-1">
                 <div className="flex items-center gap-x-2">
                     <div className="h-3 w-3 bg-red-500 rounded-full"></div>
                     <div className="h-3 w-3 bg-yellow-500 rounded-full"></div>
                     <div className="h-3 w-3 bg-green-500 rounded-full"></div>
                 </div>
 
-                <h3 className="text-md mx-auto pr-5 font-semibold">{title}</h3>
+                <h3 className="text-md lg:text-lg mx-auto pr-5 font-semibold">{title}</h3>
             </div>
             <img
                 src={imgUrl}
