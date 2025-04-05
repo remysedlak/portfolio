@@ -46,7 +46,7 @@ const NavBar = () => {
             />
             <div className="justify-bottom position-bottom flex flex-col mt-4">
                 <div className="text-lg text-black font-semibold mb-1">Remy Sedlak</div>
-                <div className="flex flex-col text-gray-700 underline">
+                <div className="flex flex-col text-gray-700">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
@@ -80,7 +80,7 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
-                        activeSection === 'intro' ? 'text-blue-700' : 'text-gray-800'
+                        activeSection === 'intro' ? 'text-blue-700' : 'text-black '
                     } hover:text-gray-500`}
                 >
                     Intro
@@ -88,7 +88,7 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('portfolio')}
                     className={`text-left ${
-                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-gray-800'
+                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-black '
                     } hover:text-gray-500`}
                 >
                     Portfolio
@@ -96,7 +96,7 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('timeline')}
                     className={`text-left ${
-                        activeSection === 'timeline' ? 'text-blue-700' : 'text-gray-800'
+                        activeSection === 'timeline' ? 'text-blue-700' : 'text-black '
                     } hover:text-gray-500`}
                 >
                     Timeline
@@ -104,7 +104,7 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('contact')}
                     className={`text-left ${
-                        activeSection === 'contact' ? 'text-blue-700' : 'text-gray-800'
+                        activeSection === 'contact' ? 'text-blue-700' : 'text-black '
                     } hover:text-gray-500`}
                 >
                     Contact
