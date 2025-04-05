@@ -20,7 +20,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
             <div className="absolute inset-0 bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center text-gray-900 text-center">
                 <div className="flex flex-col h-full w-full px-2">
                     <div className="items-center my-1">
-                        <h3 className="text-xl font-semibold underline border">
+                        <h3 className="text-xl font-semibold hover:underline border">
                             <a href={link} className="mx-auto text-blue-700 hover:text-blue-500">
                                 {title}
                             </a>
