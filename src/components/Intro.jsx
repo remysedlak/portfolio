@@ -31,7 +31,7 @@ import Title from './Title';
             />
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="flex flex-col justify-around w-full rounded-md p-4 text-center">
-                <p className="text-base md:text-xl mb-1 max-w-xl text-center">
+                <p className="text-base md:text-xl mt-2 max-w-xl text-center">
                     Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
                     I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
                 </p>

@@ -26,7 +26,7 @@ function App() {
         {sideBar && <NavBar />}
 
         {/* Main Content */}
-        <div className={`sm:${sideBar ? 'ml-40' : ''}`}>
+        <div className={`bg-gray-100 sm:${sideBar ? 'ml-40' : ''}`}>
           <div className={`hidden sm:block fixed top-4 left-4 ${sideBar ? 'ml-40' : ''}`}>
             <button onClick={toggleSidebar}>
               <img
