@@ -20,18 +20,19 @@ useEffect(() => {
 
 return (
     <div className="flex items-center justify-center flex-col text-center pt-10">
-        <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl my-3 md:my-6 font-semibold">{text}</h1>
+        <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold">{text}</h1>
         <img
             src="/assets/remysedlak_image.jpg"
             alt="Remy Sedlak"
-            className="sm:hidden block h-48 w-48 mt-8 rounded-full  border-2 border-black"
+            className="sm:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black"
         />
         <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
-            <div className="flex flex-col justify-around w-full rounded-md p-4 text-center">
-                <p className="text-base text-xl md:text-xl lg:text-2xl mt-2 max-w-3xl text-center">
+            <div className="md:flex md:flex-col  justify-around w-full rounded-md p-4 text-center ">
+                <h4 className="text-base text-xl md:text-2xl lg:text-2xl mt-2 max-w-3xl text-center">
                     Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
-                    <br/>I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
-                </p>
+                    <p className="inline sm:block text-base text-lg md:text-2xl lg:text-2xl max-w-3xl text-center mt-4 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
+                </h4>
+                
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
                     <p className="text-2xl">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
