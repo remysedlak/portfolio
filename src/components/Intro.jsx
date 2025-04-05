@@ -35,17 +35,21 @@ import Title from './Title';
                     Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
                     I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
                 </p>
-                <p className="mt-4 text-xl font-semibold">I work with...</p>
-                <div className="flex flex-wrap justify-center mt-4 space-x-4">
-                    <span className="px-3 py-1 bg-yellow-100 text-blue-800 rounded-full text-sm font-medium">Vite</span>
-                    <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">React</span>
-                    <span className="px-3 py-1 bg-blue-200 text-teal-800 rounded-full text-sm font-medium">Tailwind</span>
-                    <span className="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Django</span>
-                    <span className="px-3 py-1 bg-yellow-300 text-orange-800 rounded-full text-sm font-medium">AWS</span>
+                <div className="flex flex-col h-8 items-center my-8 p-4 sm:mb-16">
+                    <p className="text-xl font-semibold">My Stack:</p>
+                    <div className="flex flex-wrap justify-center my-4 gap-x-2 gap-y-2">
+                        <span className="px-3 py-1 bg-blue-100 text-black rounded-full text-sm font-medium">React</span>
+                        <span className="px-3 py-1 bg-yellow-100 text-black rounded-full text-sm font-medium">Vite</span>
+                        <span className="px-3 py-1 bg-indigo-100 text-black rounded-full text-sm font-medium">Tailwind</span>
+                        <span className="px-3 py-1 bg-green-100 text-black rounded-full text-sm font-medium">Django</span>
+                        <span className="px-3 py-1 bg-purple-100 text-black rounded-full text-sm font-medium">Postgres</span>
+                        <span className="px-3 py-1 bg-red-100 text-black rounded-full text-sm font-medium">AWS</span>
+                        
+                    </div>
                 </div>
                 </div>
             </div>
-            <div className="sm:hidden block flex flex-row space-x-6 py-8">
+            <div className="sm:hidden block flex flex-row space-x-6 py-8 mt-16">
                 <a
                 href="https://www.linkedin.com/in/remysedlak/"
                 target="_blank"
