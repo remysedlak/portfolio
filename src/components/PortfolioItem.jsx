@@ -20,9 +20,11 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
             <div className="absolute inset-0 bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center text-gray-900 text-center">
                 <div className="flex flex-col h-full w-full px-2">
                     <div className="items-center my-1">
-                        <a href={link}>
-                            <h3 className="text-xl font-semibold underline text-blue-600 hover:text-blue-400 border ">{title}</h3>
-                        </a>
+                        <h3 className="text-xl font-semibold underline border">
+                            <a href={link} className="mx-auto text-blue-700 hover:text-blue-500">
+                                {title}
+                            </a>
+                        </h3>
                     </div>
                     <div className="flex-grow">
                         <p className="text-sm lg:text-sm text-gray-900">

@@ -35,17 +35,17 @@ return (
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
                     <p className="text-2xl">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
-                        <span className="px-3 py-1 bg-blue-100 text-black rounded-full font-medium">React</span>
-                        <span className="px-3 py-1 bg-yellow-100 text-black rounded-full font-medium">Vite</span>
-                        <span className="px-3 py-1 bg-indigo-100 text-black rounded-full font-medium">Tailwind</span>
-                        <span className="px-3 py-1 bg-green-100 text-black rounded-full font-medium">Django</span>
-                        <span className="px-3 py-1 bg-purple-100 text-black rounded-full font-medium">Postgres</span>
-                        <span className="px-3 py-1 bg-red-100 text-black rounded-full font-medium">AWS</span>
+                        <span className="border border-black px-3 py-1 bg-blue-100 text-black rounded-full font-medium">React</span>
+                        <span className="border border-black px-3 py-1 bg-yellow-100 text-black rounded-full font-medium">Vite</span>
+                        <span className="border border-black px-3 py-1 bg-indigo-100 text-black rounded-full font-medium">Tailwind</span>
+                        <span className="border border-black px-3 py-1 bg-green-100 text-black rounded-full font-medium">Django</span>
+                        <span className="border border-black px-3 py-1 bg-purple-100 text-black rounded-full font-medium">Postgres</span>
+                        <span className="border border-black px-3 py-1 bg-red-100 text-black rounded-full font-medium">AWS</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="sm:hidden block flex flex-row space-x-8 py-8 mt-8 items-center justify-center">
+        <div className="sm:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center ">
             <a
                 href="https://www.linkedin.com/in/remysedlak/"
                 target="_blank"
@@ -57,7 +57,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-blue-700 hover:text-blue-500 transition-colors duration-200 max-w-full"
+                    className="text-blue-500 hover:text-blue-700 transition-colors duration-200 max-w-full "
                     viewBox="0 0 24 24"
                     title="LinkedIn"
                 >
@@ -75,7 +75,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-gray-800 hover:text-blue-500 transition-colors duration-200"
+                    className="text-gray-700 hover:text-yellow-500 transition-colors duration-200"
                     viewBox="0 0 24 24"
                     title="GitHub Link"
                 >
@@ -93,7 +93,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-red-500 hover:text-blue-500 transition-colors duration-200"
+                    className="text-red-500 hover:text-red-700 transition-colors duration-200"
                     viewBox="0 0 24 24"
                     title="Email"
                 >
