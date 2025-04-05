@@ -8,10 +8,15 @@ import NavBar from './components/NavBar';
 import './tailwind.css'; // Ensure Tailwind CSS is imported
 
 function App() {
-  const [sideBar, setSideBar] = useState(false);
+  const [sideBar, setSideBar] = useState(true);
+  const [buttonClass, setButtonClass] = useState("w-12 h-12 opacity-20 hover:opacity-50");
 
   const toggleSidebar = () => {
     setSideBar(!sideBar);
+    if(sideBar)
+      setButtonClass("w-12 h-12 opacity-50 hover:opacity-20")
+    else
+      setButtonClass("w-12 h-12 opacity-20 hover:opacity-50")
   };
 
   return (
@@ -23,11 +28,11 @@ function App() {
         {/* Main Content */}
         <div className={`sm:${sideBar ? 'ml-40' : ''}`}>
           <div className={`hidden sm:block fixed top-4 left-4 ${sideBar ? 'ml-40' : ''}`}>
-            <button onClick={toggleSidebar} className="">
+            <button onClick={toggleSidebar}>
               <img
                 src="./public/assets/sidebar-svgrepo-com.svg"
                 alt="Sidebar Icon"
-                className="w-12 h-12 text-gray-500 opacity-50"
+                className={buttonClass}
               />
             </button>
           </div>
