@@ -38,7 +38,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="hidden sm:block bg-gray-300 shadow-lg fixed top-0 left-0 w-40 p-4 text-left shadow-lg h-full flex flex-col justify-top font-garamond">
+        <nav className="hidden sm:block bg-gray-200 fixed top-0 left-0 w-40 p-4 text-left h-full flex flex-col justify-top font-garamond">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"

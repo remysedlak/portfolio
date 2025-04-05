@@ -31,7 +31,7 @@ function Contact(){
                             >
                         </textarea>
                         <button type="submit" className="text-center inline-block  px-8 py-3 w-max text-base font-medium text-black rounded-lg 
-                        bg-gray-200 hover:bg-gray-100 border-2 border-black focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
+                        bg-gray-100 hover:bg-gray-200 border-2 border-black focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
                             Send message
                         </button>
                 </form>

@@ -52,7 +52,7 @@ import Title from './Title';
                 </div>
                 <div className="sm:hidden block flex flex-row space-x-6 py-8">
                         <a
-                            href="https://www.linkedin.com/in/your-linkedin-profile/"
+                            href="https://www.linkedin.com/in/remysedlak/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn"
@@ -69,7 +69,7 @@ import Title from './Title';
                             </svg>
                         </a>
                         <a
-                            href="https://github.com/your-github-profile"
+                            href="https://github.com/remysedlak"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub"
@@ -86,7 +86,7 @@ import Title from './Title';
                             </svg>
                         </a>
                         <a
-                            href="mailto:your-email@example.com"
+                            href="mailto:remysedlak@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Email"
