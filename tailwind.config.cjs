@@ -4,6 +4,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      
       fontFamily: {
         garamond: ['"Red Hat Mono"', 'serif'],
       },

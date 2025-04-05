@@ -34,18 +34,16 @@ import Title from './Title';
 
                     <div className="flex flex-col justify-around w-full rounded-md p-4">
                         <p className="text-base md:text-lg mb-3 font-medium text-center md:text-left max-w-xl ">
-                        Currently pursuing a B.S. in Computer Science and 
-                            Psychology at the University of Pittsburgh.<br/> I 
-                            specialize in AI, data analysis, and UX design.
+                        Currently pursuing a B.S. in <b>Computer Science</b> and <b>Psychology</b> at the <b>University of Pittsburgh</b>.<br/> I 
+                            specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
                         </p>
                         <p className="text-base md:text-ml mb-1 max-w-xl text-center md:text-left">
-                        Innovating at the crossroads of psychology and technology 
-                        to create impactful digital experiences.
+                        Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
                         <br/>
-                            I’ve developed applications that enhance mental health 
-                            journaling, analyzed deepfake detection models, and 
-                            engineered full-stack solutions that improve user 
-                            engagement.
+                            I’ve developed <b>applications</b> that enhance <b>mental health </b>
+                            journaling, analyzed <b>deepfake detection</b> models, and 
+                            engineered <b>full-stack</b> solutions that improve <b>user 
+                            engagement</b>.
                         </p>
                     </div>
                     

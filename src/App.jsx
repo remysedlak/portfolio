@@ -30,8 +30,8 @@ function App() {
           <div className={`hidden sm:block fixed top-4 left-4 ${sideBar ? 'ml-40' : ''}`}>
             <button onClick={toggleSidebar}>
               <img
-                src="/assets/sidebar-svgrepo-com.svg"
-                alt="Hide or Show Navigation Bar"
+                src="./public/assets/sidebar-svgrepo-com.svg"
+                alt="Hide or Show Navigation"
                 className={buttonClass+" w-8 h-8 md:w-10 md:h-10  xl:w-12 xl:h-12 "}
               />
             </button>
