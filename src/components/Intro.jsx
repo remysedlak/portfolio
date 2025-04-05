@@ -30,7 +30,7 @@ return (
             <div className="flex flex-col justify-around w-full rounded-md p-4 text-center">
                 <p className="text-base text-xl md:text-xl lg:text-2xl mt-2 max-w-3xl text-center">
                     Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
-                    I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
+                    <br/>I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.
                 </p>
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
                     <p className="text-2xl">My Stack:</p>
