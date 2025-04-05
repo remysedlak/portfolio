@@ -39,16 +39,16 @@ function App() {
           <img
             src="/assets/remysedlak_image.jpg"
             alt="Remy Sedlak"
-            className="h-32 w-32 mt-4"
+            className="h-32 w-32 mt-4 rounded-lg"
           />
-          <div className="justify-bottom position-bottom flex flex-col mt-2">
+          <div className="justify-bottom position-bottom flex flex-col mt-4">
             <div className="text-lg text-black font-semibold mb-1">Remy Sedlak</div>
-            <div className="gap-y-2 flex flex-col">
+            <div className="flex flex-col text-black underline">
               <button
                 onClick={() =>
                   window.open('https://github.com/remysedlak', '_blank')
                 }
-                className="text-gray-900 hover:text-blue-700 text-left"
+                className="hover:text-blue-700 text-left"
               >
                 GitHub
               </button>
@@ -59,7 +59,7 @@ function App() {
                     '_blank'
                   )
                 }
-                className="text-gray-800 hover:text-blue-700 text-left"
+                className="hover:text-blue-700 text-left"
               >
                 LinkedIn
               </button>
@@ -70,7 +70,7 @@ function App() {
                     '_blank'
                   )
                 }
-                className="text-gray-800 hover:text-blue-700 text-left"
+                className="hover:text-blue-700 text-left"
               >
                 Resume
               </button>
