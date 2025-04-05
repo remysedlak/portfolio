@@ -27,7 +27,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                         </h3>
                     </div>
                     <div className="flex-grow">
-                        <p className="text-base xs:text-base sm:text-base md:text-md lg:text-base text-gray-900 font-medium justify-center items-center mt-2">
+                        <p className={(window.innerWidth < 500 ? "text-sm " : "text-md") + "xs:text-base sm:text-base md:text-md lg:text-base text-gray-900 font-medium justify-center items-center mt-2"}>
                             {desc}
                         </p>
                     </div>
