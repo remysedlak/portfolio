@@ -4,14 +4,14 @@ const portfolio = [
         title: 'The Inqusitor',
         stack: ['Python', 'TensorFlow', 'MesoNet', 'JavaScript'],
         link: 'https://github.com/DSmith215/The-Inquistor',
-        desc: 'The Inquisitor is a cross trained module aimed to detect deepfake images of politicians in order to stop misinformation online.'
+        desc: 'The Inquisitor is a demo extension that detect\'s deepfake images of politicians to stop misinformation online. User\'s can optimize filters on the module.'
     },
     {
         imgUrl: 'assets/reflexa.jpg',
         title: 'Reflexa',
         stack: ['React', 'Django', 'Postgres', 'AWS EC2'],
         link: 'https://github.com/remysedlak/Reflexa',
-        desc: 'Reflexa is a full stack web application designed to track mental health journal entries. Data analysis is evaluated on journal content and reported emotion.'
+        desc: 'Reflexa is a full stack web application designed to analyze mental health journal entries overtime. Data analysis is used to evaluate journal content and emotion.'
     },
 
     {
@@ -19,7 +19,7 @@ const portfolio = [
         title: 'TkinterAudio',
         stack: ['Python', 'Librosa', 'Tkinter'],
         link:'https://github.com/remysedlak/tkinter-audio-analysis',
-        desc: 'This Tkinter desktop GUI inputs an audio file and outputs many plots extracting audio features via Librosa. Desktop app also includes a media player.'
+        desc: "Python GUI, plays local audio files and generates plots, extracting audio features via Librosa's Fourier transform. Features include amplitude, chroma, zcr, rms, etc."
     },
 
     {
@@ -27,14 +27,14 @@ const portfolio = [
         title: 'Audio Hub',
         stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
         link:'https://github.com/remysedlak/audio-hub',
-        desc: 'This webapp is designed to return a harmonic analysis for audio files. Currently developing a reliable browser side spectrogram algorithm.'
+        desc: 'This js app is designed for music producers to evaluate infromation from samples. Currently developing a reliable browser-side spectrogram algorithm.'
     },
     {
         imgUrl: 'assets/journallogger.jpg',
         title: 'journalLogger',
         stack: ['React', 'Vite', 'JavaScript', 'Tailwind'],
         link:'https://github.com/remysedlak/tailwind-journal',
-        desc: 'This webapp is designed record journal user entries. The app works completely offline and allows quick lookup due to the browser cache.'
+        desc: 'This webapp records basic journal entries. It works offline and allows quick lookup to the browser\'s cache. Implemented a landing page for new users.'
     },
     // Add more projects as needed
 ];

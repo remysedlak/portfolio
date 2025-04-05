@@ -15,27 +15,27 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
             <img
                 src={imgUrl}
                 alt={title}
-                className="w-full h-40 object-cover"
+                className="w-full h-48 object-cover"
             />
             <div className="absolute inset-0 bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center text-gray-900 text-center">
                 <div className="flex flex-col h-full w-full px-2">
-                    <div className="items-center my-1">
-                        <h3 className="text-xl font-semibold hover:underline border">
-                            <a href={link} className="mx-auto text-blue-700 hover:text-blue-500">
+                    <div className="items-center py-1">
+                        <h3 className="text-xl font-semibold underline">
+                            <a href={link} className="mx-auto text-blue-800 hover:text-blue-700">
                                 {title}
                             </a>
                         </h3>
                     </div>
                     <div className="flex-grow">
-                        <p className="text-sm lg:text-sm text-gray-900">
+                        <p className="text-base xs:text-base sm:text-base md:text-md lg:text-base text-gray-900 font-medium justify-center items-center mt-2">
                             {desc}
                         </p>
                     </div>
-                    <div className="mt-auto flex flex-row gap-2 items-center justify-center my-1">
+                    <div className="md:mt-auto flex flex-row gap-2 items-center justify-center pb-2">
                         {Array.isArray(stack) ? stack.map((item, index) => (
                             <span
                                 key={index}
-                                className="text-gray-800 text-xs md:text-xs lg:text-xs border rounded-lg bg-gray-100 p-1 border-black"
+                                className="font-medium text-gray-800 text-xs md:text-xs lg:text-sm border rounded-lg bg-gray-100 p-1 border-black"
                             >
                                 {item.trim()}
                             </span>
