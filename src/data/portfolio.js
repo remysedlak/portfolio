@@ -14,7 +14,7 @@ const portfolio = [
 
     {
         imgUrl: 'assets/tkinter.jpg',
-        title: 'Tkinter Audio Analysis',
+        title: 'TkinterAudio',
         stack: ['Python', 'Librosa', 'Tkinter'],
         link:'https://github.com/remysedlak/tkinter-audio-analysis'
     },
