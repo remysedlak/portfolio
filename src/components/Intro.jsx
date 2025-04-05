@@ -24,7 +24,7 @@ return (
         <img
             src="/assets/remysedlak_image.jpg"
             alt="Remy Sedlak"
-            className="sm:hidden block h-48 w-48 mt-8 rounded-full"
+            className="sm:hidden block h-48 w-48 mt-8 rounded-full  border-2 border-black"
         />
         <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="flex flex-col justify-around w-full rounded-md p-4 text-center">

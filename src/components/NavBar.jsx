@@ -38,11 +38,11 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="hidden sm:block bg-gray-200 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond">
+        <nav className="hidden sm:block bg-gray-200 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="h-32 w-32 mt-8 rounded-lg"
+                className="h-32 w-32 mt-2 rounded-lg border-2 border-black"
             />
             <div className="justify-bottom position-bottom flex flex-col mt-4">
                 <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black font-semibold mb-1">Remy Sedlak</div>
