@@ -45,7 +45,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 className="h-32 w-32 rounded-full border-2 border-black justify-center  text-center items-center mx-auto"
             />
             <div className="justify-bottom position-bottom flex flex-col mt-2">
-                <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-300 font-semibold">Remy Sedlak</div>
+                <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-200 font-semibold">Remy Sedlak</div>
                 <div className="flex flex-col text-gray-700 text:md  xl:text-lg 2xl:text-xl">
                     <button
                         onClick={() =>
@@ -89,7 +89,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
-                        activeSection === 'intro' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black  text-center dark:text-gray-300 '
+                        activeSection === 'intro' ? 'font-semibold dark:text-gray-200 text-center' : ' text-black  text-center dark:text-gray-200 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Intro
@@ -97,7 +97,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('portfolio')}
                     className={`text-left ${
-                        activeSection === 'portfolio' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center  dark:text-gray-300 '
+                        activeSection === 'portfolio' ? 'font-semibold dark:text-gray-200 text-center' : ' text-black text-center  dark:text-gray-200 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Portfolio
@@ -105,7 +105,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('timeline')}
                     className={`text-left ${
-                        activeSection === 'timeline' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center   dark:text-gray-300 '
+                        activeSection === 'timeline' ? 'font-semibold dark:text-gray-200 text-center' : ' text-black text-center   dark:text-gray-200 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Timeline
@@ -113,7 +113,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('contact')}
                     className={`text-left ${
-                        activeSection === 'contact' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center  dark:text-gray-300 '
+                        activeSection === 'contact' ? 'font-semibold dark:text-gray-200 text-center' : ' text-black text-center  dark:text-gray-200 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Contact
