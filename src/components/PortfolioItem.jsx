@@ -37,7 +37,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                                 key={index}
                                 className="font-medium text-gray-800 text-sm md:text-md lg:text-md border rounded-lg p-1 border-black"
                                 style={{
-                                    backgroundColor: `${item.color}4D` // Adding 30% opacity to the color
+                                    backgroundColor: `${item.color}25` // Adding 30% opacity to the color
                                 }}
                             >
                                 {item.name.trim()}

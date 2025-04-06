@@ -89,7 +89,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
-                        activeSection === 'intro' ? 'text-blue-700' : ' text-black  text-center dark:text-gray-300 '
+                        activeSection === 'intro' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black  text-center dark:text-gray-300 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Intro
@@ -97,7 +97,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('portfolio')}
                     className={`text-left ${
-                        activeSection === 'portfolio' ? 'text-blue-700' : ' text-black text-center  dark:text-gray-300 '
+                        activeSection === 'portfolio' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center  dark:text-gray-300 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Portfolio
@@ -105,7 +105,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('timeline')}
                     className={`text-left ${
-                        activeSection === 'timeline' ? 'text-blue-700' : ' text-black text-center   dark:text-gray-300 '
+                        activeSection === 'timeline' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center   dark:text-gray-300 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Timeline
@@ -113,7 +113,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <button
                     onClick={() => scrollToSection('contact')}
                     className={`text-left ${
-                        activeSection === 'contact' ? 'text-blue-700' : ' text-black text-center  dark:text-gray-300 '
+                        activeSection === 'contact' ? 'font-semibold dark:text-gray-300 text-center' : ' text-black text-center  dark:text-gray-300 '
                     } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Contact

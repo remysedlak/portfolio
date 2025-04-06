@@ -48,7 +48,7 @@ function App() {
           )}
 
           {/* Sidebar Toggle */}
-            <div className={`hidden md:block pl-4 pt-2 ${sideBar ? 'ml-48' : ``}`}>
+            <div className={`fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-30'}`}>
               <button onClick={toggleSidebar}>
                 <img
                   src={
@@ -58,7 +58,7 @@ function App() {
                   }
                   alt="Hide or Show Navigation"
                   className={`w-10 h-10 ${
-              isDarkMode ? 'opacity-30 hover:opacity-20' : 'opacity-60 hover:opacity-90'
+              isDarkMode ? 'opacity-30 hover:opacity-0' : 'opacity-60 hover:opacity-90'
                   }`}
                 />
               </button>
