@@ -48,7 +48,7 @@ function App() {
           )}
 
           {/* Sidebar Toggle */}
-          <div className={`hidden md:block fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-30'}`}>
+          <div className={`hidden md:block fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-100'}`}>
             <button onClick={toggleSidebar}>
               <img
                 src={

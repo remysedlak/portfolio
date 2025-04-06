@@ -38,7 +38,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
     };
 
     return (
-        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-120 ease-in-out">
+        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-100 ease-in-out">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
