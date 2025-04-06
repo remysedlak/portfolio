@@ -6,7 +6,6 @@ const portfolio = [
             { name: 'Python', color: '#3572A5' },
             { name: 'TensorFlow', color: '#FF6F00' },
             { name: 'MesoNet', color: '#8E44AD' },
-            { name: 'JavaScript', color: '#F7DF1E' }
         ],
         link: 'https://github.com/DSmith215/The-Inquistor',
         desc: 'The Inquisitor is a demo extension that detect\'s deepfake images of politicians to stop misinformation online. User\'s can optimize filters on the module.'
