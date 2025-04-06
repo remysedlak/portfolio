@@ -60,12 +60,12 @@ function App() {
               />
             </button>
           </div>
-          <div className={`fixed top-20 opacity-50 hover:opacity-80 left-4 ${sideBar ? 'ml-40' : ''}`}>
+          <div className={`hidden sm:block fixed top-4 opacity-30 hover:opacity-80 right-4 ${sideBar ? 'ml-40' : ''}`}>
             <button onClick={toggleDarkMode}>
               <img
                 src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
                 alt="Light Mode"
-                className={" w-8 h-8 md:w-10 md:h-10  xl:w-12 xl:h-12 text-white"}
+                className={" w-12 h-12 md:w-12 md:h-12  xl:w-12 xl:h-12 text-white"}
               />
             </button>
           </div>
