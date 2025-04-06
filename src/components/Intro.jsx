@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Intro() {
-    const [text, setText] = useState("");
+    const [text, setText] = useState(" ");
     const [showCursor, setShowCursor] = useState(true);
     const fullText = "Heello, I'm Remy!";
     const typingSpeed = 90; // Adjust typing speed in ms
@@ -39,7 +39,7 @@ function Intro() {
         <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8">
             <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center">
                 {text}
-                <span className={`h-full w-4 ml-1 text-blue-400 mb-2 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>|</span>
+                <span className={`h-full w-6  text-black dark:text-white mb-2 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>|</span>
             </h1>
             <img
                 src="/assets/remysedlak_image.jpg"
