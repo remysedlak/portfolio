@@ -51,7 +51,7 @@ const NavBar = () => {
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
                         }
-                        className="hover:text-blue-700 text-left"
+                        className="hover:text-blue-600 hover:underline text-left"
                     >
                         GitHub
                     </button>
@@ -59,7 +59,7 @@ const NavBar = () => {
                         onClick={() =>
                             window.open('https://www.linkedin.com/in/remysedlak/', '_blank')
                         }
-                        className="hover:text-blue-700 text-left"
+                        className="hover:text-blue-600 hover:underline text-left"
                     >
                         LinkedIn
                     </button>
@@ -70,7 +70,7 @@ const NavBar = () => {
                                 '_blank'
                             )
                         }
-                        className="hover:text-blue-700 text-left"
+                        className="hover:text-blue-600 hover:underline text-left"
                     >
                         Resume
                     </button>
