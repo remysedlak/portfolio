@@ -17,7 +17,9 @@ function App() {
 
   return (
     <>
-      <div className={`font-garamond dark:bg-gray-800 bg-gray-200`}>
+      <div
+        className={`font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-120 ease-in-out`}
+      >
         {/* Sidebar */}
         {sideBar && (
           <NavBar
@@ -28,33 +30,42 @@ function App() {
         )}
 
         {/* Sidebar Toggle */}
-        <div className={`hidden md:block pl-2 pt-2 ${sideBar ? 'ml-48' : ``}`}>
+        <div className={`hidden md:block pl-4 pt-2 ${sideBar ? 'ml-48' : ``}`}>
           <button onClick={toggleSidebar}>
             <img
-              src={isDarkMode ? `./assets/sidebar-black.svg` : `./assets/sidebar-black.svg`}
+              src={
+                isDarkMode
+                  ? `./assets/sidebar-black.svg`
+                  : `./assets/sidebar-black.svg`
+              }
               alt="Hide or Show Navigation"
-              className={"opacity-30 hover:opacity-50 dark:opacity-30 dark:hover:opacity-10 w-10 h-10"}
+              className={
+                'opacity-25 hover:opacity-40 dark:opacity-10 dark:hover:fill-white w-10 h-10'
+              }
             />
           </button>
         </div>
 
         {/* Main Content */}
-        <div className={`md:${sideBar ? 'ml-48' : ''}`}>
+        <div
+          className={`md:${sideBar ? 'ml-48' : ''} transition-opacity duration-500 ease-in-out`}
+          style={{ opacity: isDarkMode ? 1 : 0.9 }}
+        >
           <div id="intro">
-            <Intro/>
+            <Intro />
           </div>
           <div id="portfolio">
-            <Portfolio/>
+            <Portfolio />
           </div>
           <div id="timeline">
-            <Timeline/>
+            <Timeline />
           </div>
           <div id="contact">
-            <Contact/>
+            <Contact />
           </div>
-          <Footer/>
+          <Footer />
         </div>
-        </div>
+      </div>
     </>
   );
 }
