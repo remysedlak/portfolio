@@ -68,7 +68,7 @@ function Intro() {
                     </h4>
                     <div className="flex flex-col h-8 items-center md:my-10 my-16 lg:mt-20 xl:mt-20">
                         <p className="text-2xl font-semibold">My Stack:</p>
-                        <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center my-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-2/3 mx-auto">
+                        <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center my-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full md:w-2/3 mx-auto">
                             <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-blue-100 dark:bg-blue-800 text-black dark:text-gray-300  font-semibold rounded-full">React</span>
                             <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-yellow-100 dark:bg-yellow-800 text-black dark:text-gray-300  font-semibold rounded-full">Vite</span>
                             <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-indigo-100 dark:bg-indigo-800 text-black dark:text-gray-300  font-semibold rounded-full">Tailwind</span>
