@@ -38,14 +38,14 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="hidden md:block bg-gray-200 dark:bg-gray-700 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300 dark:border-black">
+        <nav className="hidden md:block bg-gray-200 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4 pl-8 pt-8 mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300 dark:border-black">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="h-32 w-32 mt-2 rounded-lg border-2 border-black"
+                className="h-32 w-32 rounded-lg border-2 border-black"
             />
-            <div className="justify-bottom position-bottom flex flex-col mt-4">
-                <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black dark:text-gray-300 font-semibold mb-1">Remy Sedlak</div>
+            <div className="justify-bottom position-bottom flex flex-col mt-2">
+                <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black dark:text-gray-300 font-semibold">Remy Sedlak</div>
                 <div className="flex flex-col text-gray-700 text-md xl:text-lg 2xl:text-xl dark:text-gray-300 ">
                     <button
                         onClick={() =>

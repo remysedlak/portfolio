@@ -50,8 +50,8 @@ function App() {
         {sideBar && <NavBar />}
 
         {/* Main Content */}
-        <div className={`bg-${isDarkMode ? `gray-800` : `gray-100`} md:${sideBar ? 'ml-40' : ''}`}>
-          <div className={`hidden md:block fixed top-4 left-4 ${sideBar ? 'ml-40' : ''}`}>
+        <div className={`bg-${isDarkMode ? `gray-800` : `gray-100`} md:${sideBar ? 'ml-48' : ''}`}>
+          <div className={`hidden md:block fixed top-4 left-4 ${sideBar ? 'ml-48' : ''}`}>
             <button onClick={toggleSidebar}>
               <img
                 src={isDarkMode ? `./assets/sidebar-left-svgrepo-com(2).svg` : `./assets/sidebar-left-svgrepo-com(1).svg`}
@@ -60,7 +60,7 @@ function App() {
               />
             </button>
           </div>
-          <div className={`hidden md:block fixed top-4 opacity-30 hover:opacity-80 right-4 ${sideBar ? 'ml-40' : ''}`}>
+          <div className={`hidden md:block fixed top-4 opacity-30 hover:opacity-80 right-4 ${sideBar ? 'ml-48' : ''}`}>
             <button onClick={toggleDarkMode}>
               <img
                 src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
