@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 function Intro() {
     const [text, setText] = useState(" ");
     const [showCursor, setShowCursor] = useState(true);
-    const fullText = "Heello, I'm Remy!";
+    const [left, setLeft] = useState(false);
+    const fullText = "HHello, I'm Remy!";
     const typingSpeed = 90; // Adjust typing speed in ms
 
     useEffect(() => {
@@ -22,12 +23,13 @@ function Intro() {
     useEffect(() => {
         const cursorBlinkInterval = setInterval(() => {
             setShowCursor((prev) => !prev);
-        }, 500); // Cursor blink speed
+        }, 1000); // Cursor blink speed
 
         const hideCursorTimeout = setTimeout(() => {
             clearInterval(cursorBlinkInterval);
             setShowCursor(false);
-        }, 5000); // Hide cursor after 6 seconds
+            setLeft(true)
+        }, 1000); // Hide cursor after 5 seconds
 
         return () => {
             clearInterval(cursorBlinkInterval);
@@ -37,9 +39,22 @@ function Intro() {
 
     return (
         <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8">
-            <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center">
-                {text}
-                <span className={`h-full w-6  text-black dark:text-white mb-2 ${showCursor ? 'opacity-100' : 'opacity-0'}`}>|</span>
+            <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row">
+                <div
+                    className={`flex items-center justify-center transition-all duration-500 ${
+                        showCursor ? 'gap-0' : 'gap-0'
+                    } ${left ? 'ml-4' : ' '}`}
+                >
+                    {text}
+                    
+                </div>
+                <span
+                        className={`h-full w-6 text-black dark:text-white mb-2 transition-opacity duration-1000 ${
+                            showCursor ? 'opacity-100' : 'opacity-0'
+                        }`}
+                    >
+                        |
+                    </span>
             </h1>
             <img
                 src="/assets/remysedlak_image.jpg"
