@@ -26,7 +26,7 @@ return (
         <img
             src="/assets/remysedlak_image.jpg"
             alt="Remy Sedlak"
-            className="sm:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black dark:border-gray-400 dark:border-gray-200"
+            className="md:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black dark:border-gray-400 dark:border-gray-200"
         />
         <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="md:flex md:flex-col  justify-around w-full rounded-md p-4 text-center ">
@@ -36,7 +36,7 @@ return (
                 </h4>
                 
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
-                    <p className="text-2xl ">My Stack:</p>
+                    <p className="text-2xl font-semibold">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
                         <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-900 text-black dark:text-gray-200  rounded-full ">React</span>
                         <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-black dark:text-gray-200  rounded-full ">Vite</span>
@@ -48,7 +48,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="sm:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center">
+        <div className="md:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center">
             <a
                 href="https://www.linkedin.com/in/remysedlak/"
                 target="_blank"
