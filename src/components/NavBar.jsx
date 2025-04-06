@@ -51,7 +51,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
                         }
-                        className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 "
+                        className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500"
                     >
                         GitHub
                     </button>
@@ -59,7 +59,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                         onClick={() =>
                             window.open('https://www.linkedin.com/in/remysedlak/', '_blank')
                         }
-                        className="hover:text-blue-600 hover:underline  text-black dark:text-gray-300"
+                        className="hover:text-blue-600 hover:underline  text-black dark:text-gray-300 dark:hover:text-blue-500"
                     >
                         LinkedIn
                     </button>
@@ -70,7 +70,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                                 '_blank'
                             )
                         }
-                        className="hover:text-blue-600 hover:underline  text-black dark:text-gray-300 "
+                        className="hover:text-blue-600 hover:underline  text-black dark:text-gray-300 dark:hover:text-blue-500"
                     >
                         Resume
                     </button>
