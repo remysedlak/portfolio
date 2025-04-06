@@ -38,7 +38,7 @@ function Intro() {
     }, []);
 
     return (
-        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
+        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 lg:pt-8 xl:pt-16 transition-all duration-400">
             <h1 className="text-3xl xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center justify-center transition-all duration-500 ${
@@ -58,7 +58,7 @@ function Intro() {
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="md:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black dark:border-gray-400 dark:border-gray-200"
+                className="md:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black dark:border-gray-100 dark:by-1er-gray-200"
             />
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center ">
@@ -66,20 +66,21 @@ function Intro() {
                         Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
                         <p className="inline sm:block text-base text-lg md:text-2xl lg:text-2xl max-w-3xl text-center mt-4 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
                     </h4>
-                    <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
+                    <div className="flex flex-col h-8 items-center md:my-10 my-16 lg:mt-20 xl:mt-20">
                         <p className="text-2xl font-semibold">My Stack:</p>
-                        <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-900 text-black dark:text-gray-200 rounded-full">React</span>
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-black dark:text-gray-200 rounded-full">Vite</span>
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-indigo-100 dark:bg-indigo-900 text-black dark:text-gray-200 rounded-full">Tailwind</span>
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-green-100 dark:bg-green-900 text-black dark:text-gray-200 rounded-full">Django</span>
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-purple-100 dark:bg-purple-900 text-black dark:text-gray-200 rounded-full">Postgres</span>
-                            <span className="border border-black dark:border-gray-400 px-3 py-1 bg-red-100 dark:bg-red-900 text-black dark:text-gray-200 rounded-full">AWS</span>
+                        <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center my-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-2/3 mx-auto">
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-blue-100 dark:bg-blue-800 text-black dark:text-gray-300  font-semibold rounded-full">React</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-yellow-100 dark:bg-yellow-800 text-black dark:text-gray-300  font-semibold rounded-full">Vite</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-indigo-100 dark:bg-indigo-800 text-black dark:text-gray-300  font-semibold rounded-full">Tailwind</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-green-100 dark:bg-green-700 text-black dark:text-gray-300  font-semibold rounded-full">Django</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-purple-100 dark:bg-purple-700 text-black dark:text-gray-300  font-semibold rounded-full">Postgres</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-red-100 dark:bg-red-700 text-black dark:text-gray-300  font-semibold rounded-full">AWS</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="md:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center">
+            <div className="mt-12"></div>
+            <div className="md:hidden block flex flex-row space-x-8 py-8 mt-24 items-center justify-center">
                 <a
                     href="https://www.linkedin.com/in/remysedlak/"
                     target="_blank"
@@ -91,7 +92,7 @@ function Intro() {
                         width="48"
                         height="48"
                         fill="currentColor"
-                        className="text-blue-500 hover:text-blue-900 transition-colors duration-200 max-w-full"
+                        className="text-blue-500 hover:text-blue-600 transition-colors duration120 font-normal0 max-w-full"
                         viewBox="0 0 24 24"
                         title="LinkedIn"
                     >
@@ -109,7 +110,7 @@ function Intro() {
                         width="48"
                         height="48"
                         fill="currentColor"
-                        className="text-gray-900 hover:text-yellow-500 dark:text-gray-200 dark:hover:text-gray-500 transition-colors duration-200"
+                        className="text-gray-600 hover:text-yellow-500 dark1te font-normalxt-gray-200 dark:hover:text-gray-500 transition-colors duration-200"
                         viewBox="0 0 24 24"
                         title="GitHub Link"
                     >
@@ -127,7 +128,7 @@ function Intro() {
                         width="48"
                         height="48"
                         fill="currentColor"
-                        className="text-red-500 hover:text-red-900 transition-colors duration-200 pt-1"
+                        className="text-red-500 hover:text-red-600 transition-colors duration120 font-normal0 pt-1"
                         viewBox="0 0 24 24"
                         title="Email"
                     >
