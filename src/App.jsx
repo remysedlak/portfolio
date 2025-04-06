@@ -48,23 +48,23 @@ function App() {
           )}
 
           {/* Sidebar Toggle */}
-            <div className={`fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-30'}`}>
-              <button onClick={toggleSidebar}>
-                <img
-                  src={
-              isDarkMode
-                ? `./assets/sidebar-lcharcoal.svg`
-                : `./assets/sidebar-lcharcoal.svg`
-                  }
-                  alt="Hide or Show Navigation"
-                  className={`w-10 h-10 ${
-              isDarkMode ? 'opacity-30 hover:opacity-0' : 'opacity-60 hover:opacity-90'
-                  }`}
-                />
-              </button>
-            </div>
+          <div className={`hidden md:block fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-30'}`}>
+            <button onClick={toggleSidebar}>
+              <img
+                src={
+                  isDarkMode
+                    ? `./assets/sidebar-lcharcoal.svg`
+                    : `./assets/sidebar-lcharcoal.svg`
+                }
+                alt="Hide or Show Navigation"
+                className={`w-10 h-10 ${
+                  isDarkMode ? 'opacity-30 hover:opacity-0' : 'opacity-60 hover:opacity-90'
+                }`}
+              />
+            </button>
+          </div>
 
-            {/* Main Content */}
+          {/* Main Content */}
         <div
           className={`md:${sideBar ? 'ml-48' : ''} transition-opacity duration-500 ease-in-out`}
           style={{ opacity: isDarkMode ? 1 : 0.9 }}
