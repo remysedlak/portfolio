@@ -48,7 +48,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="sm:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center ">
+        <div className="sm:hidden block flex flex-row space-x-8 py-8 mt-16 items-center justify-center">
             <a
                 href="https://www.linkedin.com/in/remysedlak/"
                 target="_blank"
@@ -78,7 +78,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-gray-700 hover:text-yellow-500 transition-colors duration-200"
+                    className="text-gray-700 hover:text-yellow-500 dark:text-gray-200 dark:hover:text-gray-500 transition-colors duration-200"
                     viewBox="0 0 24 24"
                     title="GitHub Link"
                 >
@@ -96,7 +96,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-red-500 hover:text-red-700 transition-colors duration-200"
+                    className="text-red-500 hover:text-red-700 transition-colors duration-200 pt-1"
                     viewBox="0 0 24 24"
                     title="Email"
                 >
