@@ -38,15 +38,15 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="hidden sm:block bg-gray-200 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300">
+        <nav className="hidden sm:block bg-gray-200 dark:bg-gray-700 fixed top-0 left-0 w-40 p-4  h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300 dark:border-black">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
                 className="h-32 w-32 mt-2 rounded-lg border-2 border-black"
             />
             <div className="justify-bottom position-bottom flex flex-col mt-4">
-                <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black font-semibold mb-1">Remy Sedlak</div>
-                <div className="flex flex-col text-gray-700 text-md xl:text-lg 2xl:text-xl">
+                <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black dark:text-gray-300 font-semibold mb-1">Remy Sedlak</div>
+                <div className="flex flex-col text-gray-700 text-md xl:text-lg 2xl:text-xl dark:text-gray-300 ">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
@@ -80,32 +80,32 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
-                        activeSection === 'intro' ? 'text-blue-700' : 'text-black '
-                    } hover:text-gray-500`}
+                        activeSection === 'intro' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
+                    } hover:text-gray-500 dark:hover:text-gray-900 `}
                 >
                     Intro
                 </button>
                 <button
                     onClick={() => scrollToSection('portfolio')}
                     className={`text-left ${
-                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-black '
-                    } hover:text-gray-500`}
+                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
+                    } hover:text-gray-500 dark:hover:text-gray-900 `}
                 >
                     Portfolio
                 </button>
                 <button
                     onClick={() => scrollToSection('timeline')}
                     className={`text-left ${
-                        activeSection === 'timeline' ? 'text-blue-700' : 'text-black '
-                    } hover:text-gray-500`}
+                        activeSection === 'timeline' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
+                    } hover:text-gray-500 dark:hover:text-gray-900 `}
                 >
                     Timeline
                 </button>
                 <button
                     onClick={() => scrollToSection('contact')}
                     className={`text-left ${
-                        activeSection === 'contact' ? 'text-blue-700' : 'text-black '
-                    } hover:text-gray-500`}
+                        activeSection === 'contact' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
+                    } hover:text-gray-500 dark:hover:text-gray-900 `}
                 >
                     Contact
                 </button>

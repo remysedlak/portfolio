@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 function Intro() {
 const [text, setText] = useState("");
 const fullText = "Heello, I'm Remy!";
-const typingSpeed = 100; // Adjust typing speed in ms
+const typingSpeed = 100  // Adjust typing speed in ms
 
 useEffect(() => {
     let index = 0;
@@ -19,14 +19,14 @@ useEffect(() => {
 }, []);
 
 return (
-    <div className="flex items-center justify-center flex-col text-center pt-10">
+    <div className="flex items-center justify-center flex-col text-center pt-10 text-black dark:text-white dark:text-gray-200">
         <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold">
             {text || "Heello, I'm Remy!"}
         </h1>
         <img
             src="/assets/remysedlak_image.jpg"
             alt="Remy Sedlak"
-            className="sm:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black"
+            className="sm:hidden block h-48 w-48 mt-8 rounded-full border-2 border-black dark:border-gray-400 dark:border-gray-200"
         />
         <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="md:flex md:flex-col  justify-around w-full rounded-md p-4 text-center ">
@@ -38,12 +38,12 @@ return (
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
                     <p className="text-2xl">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
-                        <span className="border border-black px-3 py-1 bg-blue-100 text-black rounded-full font-medium">React</span>
-                        <span className="border border-black px-3 py-1 bg-yellow-100 text-black rounded-full font-medium">Vite</span>
-                        <span className="border border-black px-3 py-1 bg-indigo-100 text-black rounded-full font-medium">Tailwind</span>
-                        <span className="border border-black px-3 py-1 bg-green-100 text-black rounded-full font-medium">Django</span>
-                        <span className="border border-black px-3 py-1 bg-purple-100 text-black rounded-full font-medium">Postgres</span>
-                        <span className="border border-black px-3 py-1 bg-red-100 text-black rounded-full font-medium">AWS</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-700 text-black dark:text-white rounded-full font-medium">React</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-700 text-black dark:text-white rounded-full font-medium">Vite</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-indigo-100 dark:bg-indigo-700 text-black dark:text-white rounded-full font-medium">Tailwind</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-green-100 dark:bg-green-700 text-black dark:text-white rounded-full font-medium">Django</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-purple-100 dark:bg-purple-700 text-black dark:text-white rounded-full font-medium">Postgres</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-red-100 dark:bg-red-700 text-black dark:text-white rounded-full font-medium">AWS</span>
                     </div>
                 </div>
             </div>
