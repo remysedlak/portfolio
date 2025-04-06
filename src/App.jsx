@@ -56,7 +56,7 @@ function App() {
               <img
                 src={isDarkMode ? `./assets/sidebar-left-svgrepo-com(2).svg` : `./assets/sidebar-left-svgrepo-com(1).svg`}
                 alt="Hide or Show Navigation"
-                className={buttonClass + " w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12"}
+                className={buttonClass + " w-10 h-10"}
               />
             </button>
           </div>
@@ -65,7 +65,7 @@ function App() {
               <img
                 src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
                 alt="Light Mode"
-                className={" w-12 h-12 md:w-12 md:h-12  xl:w-12 xl:h-12 text-white"}
+                className={" w-10 h-10  text-white "}
               />
             </button>
           </div>
