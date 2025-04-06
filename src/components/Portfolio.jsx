@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <>
         <div className="">
-            <div className="flex items-center justify-center flex-col text-center px-4 lg:mt-20 md:mt-16 mt-8 ">
+            <div className="flex items-center justify-center flex-col text-center px-4 lg:mt-20 md:mt-16 mt-7 ">
             <Title>My Projects</Title>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center mx-8 mb-8">
