@@ -67,7 +67,7 @@ function Intro() {
                         <p className="inline sm:block text-base text-xl md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
                     </h4>
                     <div className="flex flex-col h-8 items-center sm:my-4 mb-4 md:my-10 my-12 md:my-16 lg:mt-20 xl:mt-20">
-                        <p className="text-2xl font-semibold">My Stack:</p>
+                        <p className="text-2xl font-normal">My Stack:</p>
                         <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center my-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full md:w-2/3 mx-auto">
                             <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-blue-100 dark:bg-blue-800 text-black dark:text-gray-300  font-semibold rounded-full">React</span>
                             <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-yellow-100 dark:bg-yellow-800 text-black dark:text-gray-300  font-semibold rounded-full">Vite</span>
