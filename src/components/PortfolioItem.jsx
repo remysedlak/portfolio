@@ -9,7 +9,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                     <div className="h-3 w-3 bg-yellow-500 rounded-full border border-black"></div>
                     <div className="h-3 w-3 bg-green-500 rounded-full border border-black"></div>
                 </div>
-                <h3 className="text-md md:text-lg font-semibold pr-9">{title}</h3>
+                <h3 className="text-lg font-semibold pr-9">{title}</h3>
                 <div className="w-6"></div> {/* Placeholder to balance the layout */}
             </div>
             <img
