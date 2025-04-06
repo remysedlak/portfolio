@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <div
-        className={`font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-120 ease-in-out`}
+        className={`font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-400 ease-in-out`}
       >
         {/* Sidebar */}
           {sideBar && (

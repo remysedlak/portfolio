@@ -38,10 +38,10 @@ function Intro() {
     }, []);
 
     return (
-        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8">
+        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
             <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row">
                 <div
-                    className={`flex items-center justify-center transition-all duration-500 ${
+                    className={`flex items-center justify-center ${
                         showCursor ? 'gap-0' : 'gap-0'
                     } ${left ? 'ml-4' : ' '}`}
                 >
