@@ -17,7 +17,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                 alt={title}
                 className="w-full h-48 object-cover"
             />
-            <div className="absolute inset-0 bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-170 flex flex-col items-center text-gray-900 text-center">
+            <div className="absolute inset-0 bg-gray-100 dark:bg-gray-200 bg-opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-170 flex flex-col items-center text-gray-900 text-center">
                 <div className="flex flex-col h-full w-full px-2">
                     <div className="items-center py-1">
                         <h3 className="text-xl font-semibold underline">

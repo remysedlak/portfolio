@@ -9,15 +9,10 @@ import './tailwind.css'; // Ensure Tailwind CSS is imported
 
 function App() {
   const [sideBar, setSideBar] = useState(true);
-  const [buttonClass, setButtonClass] = useState("opacity-20 hover:opacity-50");
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleSidebar = () => {
     setSideBar(!sideBar);
-    if (sideBar){
-      setButtonClass("opacity-50 hover:opacity-20");
-    } 
-    else setButtonClass("opacity-20 hover:opacity-50");
   };
 
   return (
@@ -31,12 +26,14 @@ function App() {
             sideBar={sideBar}
           />
         )}
+
+        {/* Sidebar Toggle */}
         <div className={`hidden md:block pl-2 pt-2 ${sideBar ? 'ml-48' : ``}`}>
           <button onClick={toggleSidebar}>
             <img
-              src={isDarkMode ? `./assets/sidebar-left-svgrepo-com(1).svg` : `./assets/sidebar-left-svgrepo-com(2).svg`}
+              src={isDarkMode ? `./assets/sidebar-left-svgrepo-com(1).svg` : `./assets/sidebar-left-svgrepo-com(1).svg`}
               alt="Hide or Show Navigation"
-              className={buttonClass + " w-10 h-10"}
+              className={"opacity-30 hover:opacity-50 dark:hover:opacity-100 w-10 h-10"}
             />
           </button>
         </div>
@@ -44,22 +41,21 @@ function App() {
         {/* Main Content */}
         <div className={`md:${sideBar ? 'ml-48' : ''}`}>
           <div id="intro">
-            <Intro darkMode={isDarkMode} />
+            <Intro/>
           </div>
           <div id="portfolio">
-            <Portfolio darkMode={isDarkMode} />
+            <Portfolio/>
           </div>
           <div id="timeline">
-            <Timeline darkMode={isDarkMode} />
+            <Timeline/>
           </div>
           <div id="contact">
-            <Contact darkMode={isDarkMode} />
+            <Contact/>
           </div>
-          <Footer darkMode={isDarkMode} />
+          <Footer/>
         </div>
         </div>
     </>
   );
 }
-
 export default App;

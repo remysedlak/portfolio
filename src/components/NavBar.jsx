@@ -56,7 +56,7 @@ const NavBar = (sideBar) => {
     };
 
     return (
-        <nav className="justify-center items-center text-center text-black  hidden md:block bg-gray-200 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-300 dark:border-black">
+        <nav className="justify-center items-center text-center text-black  hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
@@ -94,7 +94,7 @@ const NavBar = (sideBar) => {
                     </button>
                 </div>
             </div>
-            <div className={`hidden md:block mt-8 md:mt-4 lg:mt-8 2xl:mt-24 mx-auto text-center items-center justify-center${sideBar ? '' : 'ml-48'}`}>
+            <div className={`hidden md:block mt-8 md:mt-4 lg:mt-12 2xl:mt-24 mx-auto text-center items-center justify-center${sideBar ? '' : 'ml-48'}`}>
             <button onClick={toggleDarkMode}>
                 <img
                     src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
@@ -103,7 +103,7 @@ const NavBar = (sideBar) => {
                 />
             </button>
           </div>
-            <div className="flex flex-col md:space-y-1 lg:space-y-2 justify-top h-1/3 text-md md:text-md lg:text-lg 2xl:text-2xl 2xl:mt-24 mt-4 md:mt-4 lg:mt-8">
+            <div className="flex flex-col md:space-y-1 lg:space-y-2 justify-top h-1/3 text-md md:text-md lg:text-lg 2xl:text-2xl 2xl:mt-24 mt-4 md:mt-4 lg:mt-12">
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
