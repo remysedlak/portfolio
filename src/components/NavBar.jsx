@@ -45,8 +45,8 @@ const NavBar = () => {
                 className="h-32 w-32 rounded-lg border-2 border-black"
             />
             <div className="justify-bottom position-bottom flex flex-col mt-2">
-                <div className="text-lg xl:text-lg 2xl:text-lg 3xl-text-xl text-black dark:text-gray-300 font-semibold">Remy Sedlak</div>
-                <div className="flex flex-col text-gray-700 text-md xl:text-lg 2xl:text-xl dark:text-gray-300 ">
+                <div className="text-lg xl:text-xl 2xl:text-2xl 3xl-text-xl text-black dark:text-gray-300 font-semibold">Remy Sedlak</div>
+                <div className="flex flex-col text-gray-700 text:lg xl:text-xl 2xl:text-xl dark:text-gray-300 ">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
