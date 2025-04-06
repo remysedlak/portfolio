@@ -60,7 +60,7 @@ function App() {
               />
             </button>
           </div>
-          <div className="fixed top-4 right-4">
+          <div className={`fixed top-20 opacity-50 hover:opacity-80 left-4 ${sideBar ? 'ml-40' : ''}`}>
             <button onClick={toggleDarkMode}>
               <img
                 src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
