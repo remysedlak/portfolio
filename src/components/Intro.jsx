@@ -36,7 +36,7 @@ return (
                 </h4>
                 
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
-                    <p className="text-2xl">My Stack:</p>
+                    <p className="text-2xl font-medium">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
                         <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-700 text-black dark:text-white rounded-full font-medium">React</span>
                         <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-700 text-black dark:text-white rounded-full font-medium">Vite</span>

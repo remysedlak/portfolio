@@ -80,32 +80,32 @@ const NavBar = () => {
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
-                        activeSection === 'intro' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
-                    } hover:text-gray-500 dark:hover:text-gray-900 `}
+                        activeSection === 'intro' ? 'text-blue-700' : 'text-black dark:text-gray-300 '
+                    } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Intro
                 </button>
                 <button
                     onClick={() => scrollToSection('portfolio')}
                     className={`text-left ${
-                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
-                    } hover:text-gray-500 dark:hover:text-gray-900 `}
+                        activeSection === 'portfolio' ? 'text-blue-700' : 'text-black dark:text-gray-300 '
+                    } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Portfolio
                 </button>
                 <button
                     onClick={() => scrollToSection('timeline')}
                     className={`text-left ${
-                        activeSection === 'timeline' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
-                    } hover:text-gray-500 dark:hover:text-gray-900 `}
+                        activeSection === 'timeline' ? 'text-blue-700' : 'text-black dark:text-gray-300 '
+                    } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Timeline
                 </button>
                 <button
                     onClick={() => scrollToSection('contact')}
                     className={`text-left ${
-                        activeSection === 'contact' ? 'text-blue-700' : 'text-black dark:text-gray-400 '
-                    } hover:text-gray-500 dark:hover:text-gray-900 `}
+                        activeSection === 'contact' ? 'text-blue-700' : 'text-black dark:text-gray-300 '
+                    } hover:text-gray-500 dark:hover:text-gray-400 `}
                 >
                     Contact
                 </button>
