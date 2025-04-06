@@ -58,7 +58,7 @@ function App() {
                 }
                 alt="Hide or Show Navigation"
                 className={`w-10 h-10 ${
-                  isDarkMode ? 'opacity-30 hover:opacity-0' : 'opacity-60 hover:opacity-90'
+                  isDarkMode ? 'opacity-30 hover:opacity-20' : 'opacity-60 hover:opacity-90'
                 }`}
               />
             </button>
