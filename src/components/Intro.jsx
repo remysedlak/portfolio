@@ -4,7 +4,7 @@ function Intro() {
     const [text, setText] = useState(" ");
     const [showCursor, setShowCursor] = useState(true);
     const [left, setLeft] = useState(false);
-    const fullText = "HHello, I'm Remy!";
+    const fullText = "Heello, I'm Remy!";
     const typingSpeed = 90; // Adjust typing speed in ms
 
     useEffect(() => {
@@ -12,7 +12,7 @@ function Intro() {
         const typingInterval = setInterval(() => {
             setText((prev) => prev + fullText[index]);
             index++;
-            if (index === fullText.length-1) {
+            if (index === fullText.length -1) {
                 clearInterval(typingInterval);
             }
         }, typingSpeed);
@@ -23,13 +23,13 @@ function Intro() {
     useEffect(() => {
         const cursorBlinkInterval = setInterval(() => {
             setShowCursor((prev) => !prev);
-        }, 1000); // Cursor blink speed
+        }, 500); // Cursor blink speed
 
         const hideCursorTimeout = setTimeout(() => {
             clearInterval(cursorBlinkInterval);
             setShowCursor(false);
-            setLeft(true)
-        }, 1000); // Hide cursor after 5 seconds
+            setLeft(true); // Trigger the shift back
+        }, 3000); // Hide cursor after 3 seconds
 
         return () => {
             clearInterval(cursorBlinkInterval);
@@ -39,22 +39,21 @@ function Intro() {
 
     return (
         <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
-            <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row">
+            <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row justify-center">
                 <div
-                    className={`flex items-center justify-center ${
-                        showCursor ? 'gap-0' : 'gap-0'
-                    } ${left ? 'ml-4' : ' '}`}
+                    className={`flex items-center justify-center transition-all duration-500 ${
+                        left ? 'ml-10' : 'ml-20'
+                    }`}
                 >
                     {text}
-                    
                 </div>
                 <span
-                        className={`h-full w-6 text-black dark:text-white mb-2 transition-opacity duration-1000 ${
-                            showCursor ? 'opacity-100' : 'opacity-0'
-                        }`}
-                    >
-                        |
-                    </span>
+                    className={`h-full w-6 text-black dark:text-white mb-2 transition-opacity duration-500 ${
+                        showCursor ? 'opacity-100' : 'opacity-0'
+                    }`}
+                >
+                    |
+                </span>
             </h1>
             <img
                 src="/assets/remysedlak_image.jpg"
