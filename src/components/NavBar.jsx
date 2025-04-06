@@ -79,7 +79,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
             <div className={`hidden md:block mt-8 md:mt-4 lg:mt-12 2xl:mt-24 mx-auto text-center items-center justify-center${sideBar ? '' : 'ml-48'}`}>
             <button onClick={toggleDarkMode}>
                 <img
-                    src={isDarkMode ? `./assets/sun-svgrepo-com(2).svg` : `./assets/moon3-svgrepo-com.svg`}
+                    src={isDarkMode ? `./assets/sun.svg` : `./assets/moon.svg`}
                     alt="Light Mode"
                     className={" w-10 h-10 dark:w-13 dark:h-13 text-black text-center opacity-70 hover:opacity-100 "}
                 />
