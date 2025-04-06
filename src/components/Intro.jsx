@@ -19,7 +19,7 @@ useEffect(() => {
 }, []);
 
 return (
-    <div className="flex items-center justify-center flex-col text-center pt-10 text-black dark:text-gray-300">
+    <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-300">
         <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold">
             {text || "Heello, I'm Remy!"}
         </h1>
