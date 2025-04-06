@@ -79,8 +79,8 @@ function Intro() {
                     </div>
                 </div>
             </div>
-            <div className="mt-12"></div>
-            <div className="md:hidden block flex flex-row space-x-8 py-8 mt-24 items-center justify-center">
+            <div className="mt-8"></div>
+            <div className="md:hidden block flex flex-row space-x-8 py-8 mt-8 items-center justify-center">
                 <a
                     href="https://www.linkedin.com/in/remysedlak/"
                     target="_blank"
