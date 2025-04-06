@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
-    const [activeSection, setActiveSection] = useState(''); // Default to 'intro'
+    const [activeSection, setActiveSection] = useState('intro'); // Default to 'intro'
     
     useEffect(() => {
         const sections = document.querySelectorAll('div[id]');
