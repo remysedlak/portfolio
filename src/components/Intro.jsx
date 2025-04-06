@@ -62,9 +62,9 @@ function Intro() {
             />
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center ">
-                    <h4 className="text-base text-xl md:text-2xl lg:text-2xl mt-2 max-w-3xl sm:max-w-2xl text-center">
+                    <h4 className="text-base text-2xl md:text-2xl lg:text-2xl mt-2 md:max-w-3xl max-w-md mx-auto text-center">
                         Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
-                        <p className="inline sm:block text-base text-lg md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
+                        <p className="inline sm:block text-base text-xl md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
                     </h4>
                     <div className="flex flex-col h-8 items-center sm:my-4 mb-4 md:my-10 my-8 md:my-16 lg:mt-20 xl:mt-20">
                         <p className="text-2xl font-semibold">My Stack:</p>
