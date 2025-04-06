@@ -42,7 +42,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="h-32 w-32 rounded-full border-2 border-black justify-center  text-center items-center mx-auto"
+                className="h-32 w-32 rounded-full border-2 border-black dark:border-gray-800 justify-center  text-center items-center mx-auto"
             />
             <div className="justify-bottom position-bottom flex flex-col mt-2">
                 <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-200 font-semibold">Remy Sedlak</div>
