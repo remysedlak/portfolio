@@ -1,25 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const NavBar = (sideBar) => {
+const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
     const [activeSection, setActiveSection] = useState(''); // Default to 'intro'
-    const [isDarkMode, setIsDarkMode] = useState(() => {
-        // Check localStorage or default to false
-        return localStorage.getItem('theme') === 'dark';
-      });
-    const toggleDarkMode = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-    };
-      useEffect(() => {
-        const root = document.documentElement;
-    
-        if (isDarkMode) {
-          root.classList.add('dark');
-          localStorage.setItem('theme', 'dark');
-        } else {
-          root.classList.remove('dark');
-          localStorage.setItem('theme', 'light');
-        }
-      }, [isDarkMode]);
     
     useEffect(() => {
         const sections = document.querySelectorAll('div[id]');
@@ -30,7 +12,7 @@ const NavBar = (sideBar) => {
                 if (!hasScrolled) return; // Skip updates until the user interacts
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        
+                        setActiveSection(entry.target.id); // Update active section
                     }
                 });
             },
@@ -56,7 +38,7 @@ const NavBar = (sideBar) => {
     };
 
     return (
-        <nav className="justify-center items-center text-center text-black  hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-120 ease-in-out">
+        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-120 ease-in-out">
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
