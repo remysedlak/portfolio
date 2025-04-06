@@ -27,7 +27,7 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                         </h3>
                     </div>
                     <div className="flex-grow">
-                        <p className={(window.innerWidth < 500 ? "text-sm " : "text-md") + "xs:text-base sm:text-base md:text-md lg:text-base text-gray-900 font-medium justify-center items-center mt-2"}>
+                        <p className={(window.innerWidth < 500 ? "text-md " : "text-md") + "xs:text-base sm:text-lg md:text-lg lg:text-lg text-gray-900 font-medium justify-center items-center mt-2"}>
                             {desc}
                         </p>
                     </div>
@@ -35,9 +35,12 @@ function PortfolioItem({ imgUrl, title, stack, link, desc }) {
                         {Array.isArray(stack) ? stack.map((item, index) => (
                             <span
                                 key={index}
-                                className="font-medium text-gray-800 text-xs md:text-xs lg:text-sm border rounded-lg bg-gray-100 p-1 border-black"
+                                className="font-medium text-gray-800 text-sm md:text-md lg:text-md border rounded-lg p-1 border-black"
+                                style={{
+                                    backgroundColor: `${item.color}4D` // Adding 30% opacity to the color
+                                }}
                             >
-                                {item.trim()}
+                                {item.name.trim()}
                             </span>
                         )) : null}
                     </div>

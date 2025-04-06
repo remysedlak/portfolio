@@ -19,7 +19,7 @@ useEffect(() => {
 }, []);
 
 return (
-    <div className="flex items-center justify-center flex-col text-center pt-10 text-black dark:text-white dark:text-gray-200">
+    <div className="flex items-center justify-center flex-col text-center pt-10 text-black dark:text-gray-300">
         <h1 className="text-4xl xs:5xl sm:5xl md:text-5xl lg:6xl md:my-6 font-semibold">
             {text || "Heello, I'm Remy!"}
         </h1>
@@ -36,14 +36,14 @@ return (
                 </h4>
                 
                 <div className="flex flex-col h-8 items-center my-12 sm:mb-6">
-                    <p className="text-2xl font-medium">My Stack:</p>
+                    <p className="text-2xl ">My Stack:</p>
                     <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-row justify-center my-4 gap-x-1 gap-y-1 lg:gap-x-3 lg:gap-y-3">
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-700 text-black dark:text-white rounded-full font-medium">React</span>
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-700 text-black dark:text-white rounded-full font-medium">Vite</span>
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-indigo-100 dark:bg-indigo-700 text-black dark:text-white rounded-full font-medium">Tailwind</span>
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-green-100 dark:bg-green-700 text-black dark:text-white rounded-full font-medium">Django</span>
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-purple-100 dark:bg-purple-700 text-black dark:text-white rounded-full font-medium">Postgres</span>
-                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-red-100 dark:bg-red-700 text-black dark:text-white rounded-full font-medium">AWS</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-blue-100 dark:bg-blue-900 text-black dark:text-gray-200  rounded-full ">React</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-black dark:text-gray-200  rounded-full ">Vite</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-indigo-100 dark:bg-indigo-900 text-black dark:text-gray-200  rounded-full ">Tailwind</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-green-100 dark:bg-green-900 text-black dark:text-gray-200  rounded-full ">Django</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-purple-100 dark:bg-purple-900 text-black dark:text-gray-200  rounded-full ">Postgres</span>
+                        <span className="border border-black dark:border-gray-400 px-3 py-1 bg-red-100 dark:bg-red-900 text-black dark:text-gray-200  rounded-full ">AWS</span>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-blue-500 hover:text-blue-700 transition-colors duration-200 max-w-full "
+                    className="text-blue-500 hover:text-blue-900 transition-colors duration-200 max-w-full "
                     viewBox="0 0 24 24"
                     title="LinkedIn"
                 >
@@ -78,7 +78,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-gray-700 hover:text-yellow-500 dark:text-gray-200 dark:hover:text-gray-500 transition-colors duration-200"
+                    className="text-gray-900 hover:text-yellow-500 dark:text-gray-200 dark:hover:text-gray-500 transition-colors duration-200"
                     viewBox="0 0 24 24"
                     title="GitHub Link"
                 >
@@ -96,7 +96,7 @@ return (
                     width="48"
                     height="48"
                     fill="currentColor"
-                    className="text-red-500 hover:text-red-700 transition-colors duration-200 pt-1"
+                    className="text-red-500 hover:text-red-900 transition-colors duration-200 pt-1"
                     viewBox="0 0 24 24"
                     title="Email"
                 >
