@@ -38,7 +38,7 @@ function Intro() {
     }, []);
 
     return (
-        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 lg:pt-8 xl:pt-16 transition-all duration-400">
+        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
             <h1 className="text-3xl xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center justify-center transition-all duration-500 ${
