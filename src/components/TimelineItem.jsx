@@ -1,6 +1,19 @@
 import React from 'react';
 
 function TimelineItem({ year, title, duration, details }) {
+   const modifyLinks = (htmlString) => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(htmlString, 'text/html');
+      doc.querySelectorAll('a').forEach((a) => {
+         a.classList.add("text-blue-800");
+         a.classList.add("hover:text-blue-500");
+         a.classList.add("dark:text-blue-500");
+         a.classList.add("dark:hover:text-blue-400");
+         a.classList.add("underline");
+      });
+      return doc.body.innerHTML;
+   };
+
    return (
       <ol className="flex flex-col md:flex-row relative border-l border-black dark:border-gray-300">
          <li className="mb-10 ml-4">
@@ -16,12 +29,10 @@ function TimelineItem({ year, title, duration, details }) {
                   {duration}
                </p>
             </div>
-            <p className="my-2 text-lg font-normal text-gray-900 dark:text-gray-400">
-               {details}
-            </p>
+            <div dangerouslySetInnerHTML={{ __html: modifyLinks(details) }} />
          </li>
       </ol>
-   )
+   );
 }
 
 export default TimelineItem;
