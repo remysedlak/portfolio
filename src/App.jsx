@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <div
-        className={`font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-400 ease-in-out`}
+        className={`font-garamond dark:bg-gray-800 bg-gray-200  transition-colors duration-400 ease-in-out`}
       >
         {/* Sidebar */}
           {sideBar && (
@@ -70,7 +70,7 @@ function App() {
           style={{ opacity: isDarkMode ? 1 : 0.9 }}
         >
           <div id="intro">
-            <Intro />
+            <Intro isDarkMode={isDarkMode}/>
           </div>
           <div id="portfolio">
             <Portfolio />

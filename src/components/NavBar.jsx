@@ -81,7 +81,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 <img
                     src={isDarkMode ? `./assets/sun.svg` : `./assets/moon.svg`}
                     alt="Light Mode"
-                    className={" w-10 h-10 dark:w-13 dark:h-13 text-black text-center opacity-70 hover:opacity-100 "}
+                    className={" w-10 h-10 dark:w-13 stroke-2 dark:h-13 text-black text-center opacity-70 hover:opacity-100 "}
                 />
             </button>
           </div>

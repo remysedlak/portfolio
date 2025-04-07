@@ -7,3 +7,13 @@
       @apply font-semibold;
     }
   }
+  .force-fill-current svg {
+    fill: currentColor !important;
+  }
+
+  .text-white {
+    color: white;
+  }
+  .text-black {
+    color: #252F3E;
+  }
