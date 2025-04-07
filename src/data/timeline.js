@@ -39,7 +39,7 @@ const timeline = [
     {
         year: '2022',
         title: 'Warehousing @ NAPA',
-        duration: 'highschool',
+        duration: '1 year 6 months',
         details: `Worked as a warehouse associate at Fayette Service Parts Inc., managing inventory for over 25+ NAPA automotive stores.
         Gained experience in logistics, supply chain operations, and data tracking, ensuring accurate inventory management in a high-demand environment.
         Developed strong problem-solving skills by troubleshooting logistical challenges and optimizing warehouse efficiency.`
@@ -47,7 +47,7 @@ const timeline = [
     {
         year: '2021',
         title: 'First Line of Code',
-        duration: 'the beginning',
+        duration: '9 months',
         details: `Took my first programming course through a College in High School (CHS) program, sparking my passion for software development.
         Started with fundamental programming concepts and quickly became fascinated with problem-solving, leading to deeper explorations in AI, full-stack development, and data science.
         This moment marked the foundation of my journey into technology, setting the stage for future projects and innovations.`

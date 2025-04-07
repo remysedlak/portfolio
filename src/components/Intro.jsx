@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Title from './Title';
 
 function Intro() {
     const [text, setText] = useState(" ");
@@ -39,9 +40,9 @@ function Intro() {
 
     return (
         <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
-            <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-semibold items-center flex flex-row justify-center">
+            <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
-                    className={`flex items-center justify-center transition-all duration-500 ${
+                    className={`flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'pl-4  md:ml-8' : 'ml-15 md:ml-20'
                     }`}
                 >
@@ -67,20 +68,20 @@ function Intro() {
                         <p className="inline sm:block text-base text-xl md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
                     </h4>
                     <div className="flex flex-col h-8 items-center sm:my-4 mb-4 my-4 md:my-16 lg:mt-20 xl:mt-20">
-                        <p className="text-2xl font-normal">My Stack:</p>
+                        <Title>My Stack</Title>
                         <div className="text-md lg:text-lg flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center my-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full md:w-2/3 mx-auto">
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-blue-100 dark:bg-blue-800 text-black dark:text-gray-300  font-semibold rounded-full">React</span>
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-yellow-100 dark:bg-yellow-800 text-black dark:text-gray-300  font-semibold rounded-full">Vite</span>
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-indigo-100 dark:bg-indigo-800 text-black dark:text-gray-300  font-semibold rounded-full">Tailwind</span>
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-green-100 dark:bg-green-700 text-black dark:text-gray-300  font-semibold rounded-full">Django</span>
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-purple-100 dark:bg-purple-700 text-black dark:text-gray-300  font-semibold rounded-full">Postgres</span>
-                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-red-100 dark:bg-red-700 text-black dark:text-gray-300  font-semibold rounded-full">AWS</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-blue-100 dark:bg-blue-800 text-black dark:text-gray-300  font-base rounded-full">React</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-yellow-100 dark:bg-yellow-800 text-black dark:text-gray-300  font-base rounded-full">Vite</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-indigo-100 dark:bg-indigo-800 text-black dark:text-gray-300  font-base rounded-full">Tailwind</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-green-100 dark:bg-green-700 text-black dark:text-gray-300  font-base rounded-full">Django</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-purple-100 dark:bg-purple-700 text-black dark:text-gray-300  font-base rounded-full">Postgres</span>
+                            <span className="border opacity-100 border-black dark:border-gray-100 px-6 py-2 bg-red-100 dark:bg-red-700 text-black dark:text-gray-300  font-base rounded-full">AWS</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="mt-12"></div>
-            <div className="md:hidden block flex flex-row space-x-8 py-8 mt-12 items-center justify-center">
+            <div className="mt-36"></div>
+            <div className="md:hidden block flex flex-row space-x-8 py-8 items-center justify-center">
                 <a
                     href="https://www.linkedin.com/in/remysedlak/"
                     target="_blank"
