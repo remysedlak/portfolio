@@ -72,7 +72,7 @@ function Intro(isDarkMode) {
 
                 </div>
             </div>
-            <div className="mt-32  md:mt-36"></div>
+            <div className="mt-32  md:mt-16"></div>
             <h1 className="md:hidden block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800">Let's connect!</h1>
             <div className="md:hidden block flex flex-row space-x-8 pb-16 items-center justify-center">
                 <a
