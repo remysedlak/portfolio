@@ -40,10 +40,10 @@ function Intro(isDarkMode) {
 
     return (
         <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
-            <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className="text-4xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center font-semibold justify-center transition-all duration-500 ${
-                        left ? 'pl-4  md:ml-12' : 'ml-15 md:ml-20'
+                        left ? 'pl-4  ml-2 md:ml-12' : 'ml-15 md:ml-20'
                     }`}
                 >
                     {text}
@@ -59,20 +59,21 @@ function Intro(isDarkMode) {
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="md:hidden block h-48 w-48 mt-8 rounded-xl border-2 border-black dark:border-gray-100 dark:by-1er-gray-200"
+                className="md:hidden block h-48 w-48 mt-8 rounded-full border border-gray-500 dark:border-gray-100 dark:by-1er-gray-200"
             />
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center">
-                    <h4 className="text-base text-xl md:text-2xl lg:text-2xl mt-2 px-4  md:max-w-3xl mx-auto text-center">
+                    <h4 className="text-base text-lg md:text-2xl lg:text-2xl mt-2 px-4  md:max-w-3xl mx-auto text-center">
                         Innovating at the crossroads of <b>psychology</b> and <b>technology</b> to create <b>impactful</b> digital experiences.
-                        <p className="inline sm:block text-base text-xl md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX design</b>.</p>
+                        <p className="inline sm:block text-base text-lg md:text-2xl lg:text-2xl max-w-3xl text-center mt-1 md:mt-8"> I specialize in <b>AI</b>, <b>data analysis</b>, and <b>UX</b>.</p>
                     </h4>
                     
+                
                     <Stack></Stack>
-
                 </div>
+                
             </div>
-            <div className="mt-32  md:mt-16"></div>
+            <div className="mt-16  md:mt-16"></div>
             <h1 className="md:hidden block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800">Let's connect!</h1>
             <div className="md:hidden block flex flex-row space-x-8 pb-16 items-center justify-center">
                 <a
