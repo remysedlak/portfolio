@@ -4,8 +4,8 @@ function Contact(){
     return(
         <div className='flex flex-col mb-5 mx-4'>
             <div className='flex flex-col justify-center items-center'>
-            <h1 className="md:hidden block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800">Let's connect!</h1>
-            <div className="md:hidden block flex flex-row space-x-8 pb-16 items-center justify-center">
+            <h1 className="block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800">Let's connect!</h1>
+            <div className=" block flex flex-row space-x-8 pb-16 items-center justify-center">
                 <a
                     href="https://www.linkedin.com/in/remysedlak/"
                     target="_blank"
