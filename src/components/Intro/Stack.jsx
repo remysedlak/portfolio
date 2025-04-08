@@ -8,7 +8,7 @@ const Stack = () => {
             <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center ">
                 
                 <div className="flex flex-col h-8 items-center sm:my-4 mb-4 my-4 md:my-16 lg:mt-24 xl:mt-28">
-                    <h1 className="font-medium text-2xl mb-4 text-black dark:text-gray-200">My Stack</h1>
+                    <h1 className="font-medium text-2xl mb-5 text-black dark:text-gray-200">My Stack</h1>
                     <div className="flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center gap-x-2 gap-y-2 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full lg:w-full mx-auto">
                         <a target="_blank" href="https://react.dev/" className='hover:opacity-100 w-12 h-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="reactjs" />
