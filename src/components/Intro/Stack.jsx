@@ -1,6 +1,6 @@
 import React from 'react'
 import StackIcon  from 'tech-stack-icons';
-import Title from './Title'
+import Title from '../Title'
 
 const Stack = () => {
     return (
@@ -10,23 +10,23 @@ const Stack = () => {
                 <div className="flex flex-col h-8 items-center sm:my-4 mb-4 my-4 md:my-16 lg:mt-24 xl:mt-28">
                     <h1 className="font-medium text-2xl mb-4 text-black dark:text-gray-200">My Stack</h1>
                     <div className="flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-center gap-x-2 gap-y-2 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full lg:w-full mx-auto">
-                        <a className='hover:opacity-100 w-12 h-12 md:w-16 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://react.dev/" className='hover:opacity-100 w-12 h-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="reactjs" />
                         </a>
-                        <a className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://vite.dev/" className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="vitejs" />
                         </a>
-                        <a className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://tailwindcss.com/" className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="tailwindcss" />
                         </a>
-                        <a className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://www.djangoproject.com/" className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="django" />
                         </a>
-                        <a className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-12 w-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="postgresql" />
                         </a>
 
-                        <a className='hover:opacity-100 h-12 md:w-16 md:h-16 opacity-80 inline'>
+                        <a target="_blank" href="https://aws.amazon.com/free/?gclid=Cj0KCQjw782_BhDjARIsABTv_JBV2-7JIzdh1SswbT2b2LVo6NF-LvqXREjFT-qBLUXakYPsAckm6DMaAv0IEALw_wcB&trk=6a4c3e9d-cdc9-4e25-8dd9-2bd8d15afbca&sc_channel=ps&ef_id=Cj0KCQjw782_BhDjARIsABTv_JBV2-7JIzdh1SswbT2b2LVo6NF-LvqXREjFT-qBLUXakYPsAckm6DMaAv0IEALw_wcB:G:s&s_kwcid=AL!4422!3!651751059780!e!!g!!aws!19852662197!145019195897&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all" className='hover:opacity-100 h-12 md:w-16 md:h-16 opacity-80 inline'>
                             <svg width="72" height="72" viewBox="0 0 100 100" fill="text-black dark:text-white" xmlns="http://www.w3.org/2000/svg">
                                 <g id="aws">
                                     <g id="aws_2">

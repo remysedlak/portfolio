@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Intro from './components/Intro';
+import Intro from './components/Intro/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <div
-        className={`font-garamond dark:bg-gray-800 bg-gray-200  transition-colors duration-400 ease-in-out`}
+        className="font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-400 ease-in-out"
       >
         {/* Sidebar */}
           {sideBar && (
