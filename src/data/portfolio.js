@@ -59,6 +59,18 @@ const portfolio = [
         link:'https://github.com/remysedlak/tailwind-journal',
         desc: 'This webapp records basic journal entries. It works offline and allows quick lookup to the browser\'s cache. Implemented a landing page for new users.'
     },
+    {
+        imgUrl: 'assets/plant-mob.png',
+        title: 'Plant Parent',
+        stack: [
+            { name: 'React', color: '#61DAFB' },
+            { name: 'Vite', color: '#646CFF' },
+            { name: 'Django', color: '#F7DF1E' },
+            { name: 'Tailwind', color: '#38B2AC' }
+        ],
+        link:'https://github.com/remysedlak/plant-parent',
+        desc: 'This webapp track plant\'s and their needs. Currently developing a login system and a database to store plant information and images.'
+    },
     // Add more projects as needed
 ];
 export default portfolio;
