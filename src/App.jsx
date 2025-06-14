@@ -35,11 +35,16 @@ function App() {
 
   return (
     <>
+
+    <div>
       <div
         className="font-garamond dark:bg-gray-800 bg-gray-200 transition-colors duration-400 ease-in-out"
+        id="app"
       >
+        
         {/* Sidebar */}
           {sideBar && (
+            
             <NavBar
               isDarkMode={isDarkMode}
               toggleDarkMode={toggleDarkMode} // Pass the setIsDarkMode function to NavBar
@@ -66,13 +71,21 @@ function App() {
 
           {/* Main Content */}
         <div
-          className={`md:${sideBar ? 'ml-48' : ''} transition-opacity duration-500 ease-in-out`}
+          className={`relative md:${sideBar ? 'ml-48' : ''} transition-opacity duration-500 ease-in-out`}
           style={{ opacity: isDarkMode ? 1 : 0.9 }}
         >
+          
+          <div
+            style={{ backgroundImage: `url(/assets/cartographer.png)`}}
+            className="absolute inset-0 bg-repeat opacity-30 transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
+          />
+
           <div id="intro">
+           
             <Intro isDarkMode={isDarkMode}/>
           </div>
           <div id="portfolio">
+            
             <Portfolio />
           </div>
           <div id="timeline">
@@ -83,6 +96,7 @@ function App() {
           </div>
           <Footer />
         </div>
+      </div>
       </div>
     </>
   );

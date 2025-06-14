@@ -38,13 +38,19 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
     };
 
     return (
-        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700 fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-100 ease-in-out">
+        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700  fixed top-0 left-0 w-48 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-400  dark:border-black transition-colors duration-100 ease-in-out">
+            <div
+            style={{ backgroundImage: `url(/assets/cartographer.png)`}}
+            className=" inset-0 bg-repeat transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
+          />
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="h-32 w-32 rounded-full border-2 border-gray-500 dark:border-gray-800 justify-center text-center items-center mx-auto"
+                className="h-32 w-32 bg-gray-200 z-40 rounded-full border-2 border-gray-500 dark:border-gray-800 justify-center text-center items-center mx-auto"
             />
+            
             <div className="justify-bottom position-bottom flex flex-col mt-2">
+                
                 <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-200 font-semibold">Remy Sedlak</div>
                 <div className="flex flex-col text-gray-700 text:md  xl:text-lg 2xl:text-xl">
                     <button

@@ -3,9 +3,10 @@ import Title from './Title';
 function Contact(){
     return(
         <div className='flex flex-col mb-5 mx-4'>
-            <div className='flex flex-col justify-center items-center'>
-            <h1 className="block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800">Let's connect!</h1>
-            <div className=" block flex flex-row space-x-8 pb-16 items-center justify-center">
+            <div className='flex flex-col justify-center items-center relative'>
+            <div className="p-4 mb-16">
+            <h1 className="block font-medium text-2xl pb-4 dark:text-gray-300 text-gray-800 ">Let's connect!</h1>
+            <div className=" block flex flex-row space-x-8 items-center justify-center">
                 <a
                     href="https://www.linkedin.com/in/remysedlak/"
                     target="_blank"
@@ -61,34 +62,35 @@ function Contact(){
                     </svg>
                 </a>
             </div>
+            </div>
                 <form
                     action="https://getform.io/f/awnqnymb"
                     method="POST"
-                    className="flex flex-col w-full md:w-7/12"
+                    className="flex flex-col w-full md:w-7/12 z-50"
                     >
                         <Title>Contact </Title>
                         <input
                             type="text"
                             name="name"
                             placeholder="Name"
-                            className="p-2 bg-transparent  dark:text-gray-300 border-2 border-black  dark:border-gray-400 rounded-md focus:outline-none placeholder-gray-500 "
+                            className="p-2 bg-gray-300 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-40 dark:text-gray-300 border-2 border-black  dark:border-gray-400 rounded-md focus:outline-none placeholder-gray-500 "
                         />
                         <input
                             type="text"
                             name="email"
                             placeholder="Email Address"
-                            className="my-2 p-2 bg-transparent dark:text-gray-300 border-2 border-black dark:border-gray-400   rounded-md focus:outline-none placeholder-gray-500 "
+                            className="my-2 p-2 bg-gray-300 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-40 bg-transparent dark:text-gray-300 border-2 border-black dark:border-gray-400   rounded-md focus:outline-none placeholder-gray-500 "
                         />
                         <textarea
                             name="message"
                             placeholder="Message"
                             cols="30"
                             rows="10"
-                            className="mb-4 p-2 bg-transparent border-2 rounded-md focus:outline-none dark:text-gray-300 border-black dark:border-gray-400  placeholder-gray-500 "
+                            className="mb-4 bg-gray-300 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-40 p-2 bg-transparent border-2 rounded-md focus:outline-none dark:text-gray-300 border-black dark:border-gray-400  placeholder-gray-500 "
                             >
                         </textarea>
                         <button type="submit" className="text-center inline-block  px-8 py-3 w-max text-base font-medium text-black rounded-lg 
-                        bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 border-2 dark:text-gray-300 dark:hover:bg-gray-600 border-black dark:border-gray-400  focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
+                        bg-gray-300 hover:bg-gray-200 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-40 border-2 dark:text-gray-300 dark:hover:bg-opacity-30 dark:hover:bg-gray-700 border-black dark:border-gray-400  focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
                             Send message
                         </button>
                 </form>
