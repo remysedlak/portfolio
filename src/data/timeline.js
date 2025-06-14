@@ -1,4 +1,10 @@
 const timeline = [
+     {
+        year: '2025',
+        title: 'Returning @ AGI',
+        duration: 'present',
+        details: `This summer, I got the opportunity to return to AssetGenie as a developer intern, where I am currently strategizing and implementing database integration between local and cloud ERP systems. More details to come! ` 
+    },
     {
         year: '2025',
         title: 'H4H Finals',
@@ -23,7 +29,7 @@ const timeline = [
     },
     {
         year: '2024',
-        title: 'Internship @ AGi',
+        title: 'Internship @ AGI',
         duration: '2 months',
         details: `Secured my first technical internship at <a target="_blank" className="underline text-blue-400" href="https://agigrouponline.com/"> AssetGenie</a>, where I built Python automation tools integrated with GitLab and Excel to streamline data processing workflows. 
         Gained hands-on experience in data engineering, scripting, and backend development, enhancing operational efficiency across teams. 
