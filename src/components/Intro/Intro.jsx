@@ -39,7 +39,7 @@ function Intro(isDarkMode) {
     }, []);
 
     return (
-        <div className="flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
+        <div className="relative flex items-center justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
             <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center font-semibold justify-center transition-all duration-500 ${
@@ -59,7 +59,7 @@ function Intro(isDarkMode) {
             <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="md:hidden block h-48 w-48 mt-8 rounded-full border border-gray-500 dark:border-gray-100 dark:by-1er-gray-200"
+                className="md:hidden z-100 block h-48 w-48 mt-8 rounded-full border border-gray-500 dark:border-gray-100 dark:by-1er-gray-200"
             />
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center">
