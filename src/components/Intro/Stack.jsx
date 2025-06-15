@@ -7,25 +7,25 @@ const Stack = () => {
         <div className="md:pb-8 relative w-200 mx-auto max-w-lg md:max-w-3xl bg-gray-200 dark:bg-gray-800 bg-opacity-80 shadow-lg md:w-600 md:p-4 border-2 border-gray-500  mt-2  text-center  flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="flex flex-row  md:flex md:flex-col justify-left w-full rounded-md text-center pb-2 ">
                 
-                <div className="justift-center tems-center flex flex-row  h-8  sm:my-4 my-4  md:my-4 lg:mt-24 xl:mt-2 xxl:mt-28">
+                <div className="justift-center tems-center flex flex-row  h-9  s9:my-4 my-4  md:my-4 lg:mt-24 xl:mt-2 xxl:mt-28">
                     <h1 className="font-medium text-left md:text-center text-2xl md:text-3xl  ml-2 md:mr-8 mr-2 mt-1 ">Stack:</h1>
                     {/* list of icons */}
                     <div className=" justify-center flex flex-row  sm:flex-row md:flex-row lg:flex-grid justify-center mt-6 items-center gap-x-2 gap-y-2 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full lg:w-full mx-auto">
-                        <a target="_blank" href="https://nextjs.org/" className='hover:opacity-100 w-10 h-10 md:w-20 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://nextjs.org/" className='hover:opacity-100 h-9 w-9 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="nextjs2" />
                         </a>
 
-                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-9 w-9 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="tailwindcss" />
                         </a>
                        
-                        <a target="_blank" href="https://vite.dev/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://vite.dev/" className='hover:opacity-100 h-9 w-9 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="vitejs" />
                         </a>
-                         <a target="_blank" href="https://www.djangoproject.com/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
+                         <a target="_blank" href="https://www.djangoproject.com/" className='hover:opacity-100 h-9 w-9 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="django" />
                         </a>
-                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
+                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-9 w-9 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="postgresql" />
                         </a>
                          

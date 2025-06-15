@@ -53,7 +53,7 @@ function App() {
           )}
 
           {/* Sidebar Toggle */}
-          <div className={`hidden md:block fixed top-4 left-4 z-50 ${sideBar ? 'md:left-52' : 'md:left-4 transition-all duration-100'}`}>
+          <div className={`hidden md:block fixed top-4 left-4 z-50 ${sideBar ? 'md:left-44' : 'md:left-4 transition-all duration-100'}`}>
             <button onClick={toggleSidebar}>
               <img
                 src={
@@ -71,7 +71,7 @@ function App() {
 
           {/* Main Content */}
         <div
-          className={`relative md:${sideBar ? 'ml-48' : ''} transition-colors duration-100 ease-in-out`}
+          className={`relative md:${sideBar ? 'ml-40' : ''} transition-colors duration-100 ease-in-out`}
           style={{ opacity: isDarkMode ? 1 : 0.9 }}
         >
           
