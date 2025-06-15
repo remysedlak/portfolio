@@ -15,7 +15,7 @@ const timeline = [
     },
     {
         year: '2025',
-        title: 'Tutoring for SCI',
+        title: 'Peer Tutoring',
         duration: '5 months',
         details: `During my sophomore year, I started providing one-on-one tutoring sessions for <a target="_blank" href="https://courses.sci.pitt.edu/courses">CMPINF and CS courses</a> at Pitt, guiding students through fundamental and advanced programming concepts.
         This opportunity has allowed me to strengthen students' problem-solving and debug skills, while I strengthen my own communication.`
