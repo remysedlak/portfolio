@@ -77,7 +77,7 @@ function App() {
           
           <div
             style={{ backgroundImage: `url(/assets/cartographer.png)`}}
-            className="absolute inset-0 bg-repeat opacity-10 transition-opacity duration-500 ease-in-out transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
+            className="absolute inset-0 bg-repeat opacity-20 transition-opacity duration-500 ease-in-out transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
           />
 
           <div id="intro">
