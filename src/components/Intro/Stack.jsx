@@ -14,6 +14,10 @@ const Stack = () => {
                         <a target="_blank" href="https://nextjs.org/" className='hover:opacity-100 w-10 h-10 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="nextjs2" />
                         </a>
+
+                        <a target="_blank" href="https://www.postgresql.org/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
+                            <StackIcon name="tailwindcss" />
+                        </a>
                        
                         <a target="_blank" href="https://vite.dev/" className='hover:opacity-100 h-10 w-10 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="vitejs" />
