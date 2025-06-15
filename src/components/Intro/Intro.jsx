@@ -40,27 +40,31 @@ function Intro(isDarkMode) {
 
     return (
         <div className="relative flex  justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
-            
-            <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className="md:hidden font-semibold text-5xl">Remy Sedlak</h1>
+            <h1 className="md:hidden font-base text-xl mt-2">Pittsburgh, PA</h1>
+             <h1 className="md:hidden font-base text-xl">remysedlak@gmail.com</h1>
+            <h1 className="hidden md:inline text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
                     }`}
                 >
                     {text}
-                </div>
-                <span
-                    className={`inline text-blue-500 mb-2 transition-opacity duration-500 ${
+                    <span
+                    className={`text-blue-500 mb-2 transition-opacity duration-500 ${
                         showCursor ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
                     |
                 </span>
+                </div>
+                
             </h1>
+            
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="md:flex md:flex-col justify-around w-full rounded-md p-4 text-center ">
                     
-                    <h4 className=" text-base text-md md:text-2xl lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-center md:text-left  rounded-lg p-6 ">
+                    <h4 className=" text-base text-lg md:text-2xl lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-center md:text-left  rounded-lg p-6 ">
                         <div className="flex flex-col md:flex-row gap-x-5 items-center justify-between"> <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
