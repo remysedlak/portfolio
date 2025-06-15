@@ -5,7 +5,6 @@ import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import Connect from './components/Connect';
 import './tailwind.css'; // Ensure Tailwind CSS is imported
 
 function App() {
@@ -91,9 +90,6 @@ function App() {
           </div>
           <div id="timeline">
             <Timeline />
-          </div>
-          <div id="connect">
-            <Connect />
           </div>
           <div id="contact">
             <Contact />

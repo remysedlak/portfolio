@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import github from '/assets/github-mark.svg';
 
 const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
     const [activeSection, setActiveSection] = useState('intro'); // Default to 'intro'
@@ -43,23 +44,20 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
             style={{ backgroundImage: `url(/assets/vertical-cloth.png)`}}
             className="absolute inset-0 bg-repeat opacity-20 transition-opacity duration-500 ease-in-out transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
           />
-            <img
-                src="/assets/remysedlak_image.jpg"
-                alt="Remy Sedlak"
-                className="h-32 w-32 bg-gray-200 z-40 rounded-full border-2 border-gray-500 dark:border-gray-800 justify-center text-center items-center mx-auto"
-            />
             
-            <div className="justify-bottom position-bottom flex flex-col mt-2">
+            
+            <div className="justify-bottom position-bottom flex flex-col mt-16">
                 
-                <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-200 font-semibold">Remy Sedlak</div>
-                <div className="flex flex-col text-gray-700 text:md  xl:text-lg 2xl:text-xl">
+                {/* <div className="text-lg xl:text-xl 2xl:text-xl 3xl-text-xl text-black  dark:text-gray-200 font-semibold">Remy Sedlak</div> */}
+                <div className="flex flex-col text-gray-700 text:md  xl:text-xl 2xl:text-xl">
                     <button
                         onClick={() =>
                             window.open('https://github.com/remysedlak', '_blank')
                         }
-                        className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500"
+                        className=" flex flex-row items-center justify-center hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500"
                     >
-                        GitHub
+                        <p >GitHub</p>
+                        {/*  <img src={github} className="w-5 h-5"></img> */}
                     </button>
                     <button
                         onClick={() =>
@@ -69,6 +67,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                     >
                         LinkedIn
                     </button>
+                    <a href="mailto:yourname@example.com" className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500">Email</a>
                     <button
                         onClick={() =>
                             window.open(
@@ -91,7 +90,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                 />
             </button>
           </div>
-            <div className="flex flex-col md:space-y-1 lg:space-y-2 justify-top h-1/3 text-md md:text-md lg:text-lg 2xl:text-2xl 2xl:mt-24 mt-4 md:mt-4 lg:mt-12">
+            <div className="flex flex-col md:space-y-1 lg:space-y-2 justify-top h-1/3 text-md md:text-md lg:text-xl 2xl:text-2xl 2xl:mt-24 mt-4 md:mt-4 lg:mt-12">
                 <button
                     onClick={() => scrollToSection('intro')}
                     className={`text-left ${
