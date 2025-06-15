@@ -82,7 +82,7 @@ function Intro(isDarkMode) {
                 
             </div>
             
-            <div className="mt-16  md:mt-16"></div>
+            <div className="mt-20  md:mt-16"></div>
             
         </div>
     );
