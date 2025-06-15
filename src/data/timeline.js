@@ -29,7 +29,7 @@ const timeline = [
     },
     {
         year: '2024',
-        title: 'Internship @ AGI',
+        title: 'Intern @ AGI',
         duration: '2 months',
         details: `Secured my first technical internship at <a target="_blank" className="underline text-blue-400" href="https://agigrouponline.com/"> AssetGenie</a>, where I built Python automation tools integrated with GitLab and Excel to streamline data processing workflows. 
         Gained hands-on experience in data engineering, scripting, and backend development, enhancing operational efficiency across teams. 
@@ -44,7 +44,7 @@ const timeline = [
     },
     {
         year: '2022',
-        title: 'Warehousing @ NAPA',
+        title: 'Working @ NAPA',
         duration: '1.5 years',
         details: `Worked as a warehouse associate at <a target="_blank" href="https://www.fayettepartsservice.com/">Fayette Service Parts Inc.</a>, managing inventory for over 25+ NAPA automotive stores.
         Gained experience in logistics, supply chain operations, and data tracking, ensuring accurate inventory management in a high-demand environment.
@@ -52,7 +52,7 @@ const timeline = [
     },
     {
         year: '2021',
-        title: 'First Line of Code',
+        title: 'Hello World',
         duration: '9 months',
         details: `Took my first programming course through a <a target="_blank" href="https://www.chs.pitt.edu/">College in High School (CHS)</a> program, sparking my passion for software development.
         Started with fundamental programming concepts and quickly became fascinated with problem-solving, leading to deeper explorations in AI, full-stack development, and data science.
