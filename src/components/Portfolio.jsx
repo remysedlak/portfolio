@@ -6,8 +6,8 @@ function Portfolio() {
     return (
         <>
         <div className="">
-            <div className="flex items-center justify-center flex-col text-center px-4 mt-8 lg:mt-8 md:mt-8 ">
-            <Title>My Projects</Title>
+            <div className="flex items-center justify-center flex-col text-center px-4 lg:mt-8 md:mt-8 ">
+            <Title className="dark:text-white text-black">Projects</Title>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center mx-8 mb-8">
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4  ">
