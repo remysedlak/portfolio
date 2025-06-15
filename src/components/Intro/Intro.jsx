@@ -5,7 +5,7 @@ function Intro(isDarkMode) {
     const [text, setText] = useState(" ");
     const [showCursor, setShowCursor] = useState(true);
     const [left, setLeft] = useState(false);
-    const fullText = "Heello, I am Remy!";
+    const fullText = "Heello, I am Remy Sedlak!";
     const typingSpeed = 90; // Adjust typing speed in ms
 
     useEffect(() => {
@@ -41,7 +41,7 @@ function Intro(isDarkMode) {
     return (
         <div className="relative flex  justify-center flex-col text-center text-black dark:text-gray-200 pt-8 transition-all duration-400">
             
-            <h1 className="text-2xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className="text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
@@ -50,7 +50,7 @@ function Intro(isDarkMode) {
                     {text}
                 </div>
                 <span
-                    className={`h-full text-black dark:text-white mb-2 transition-opacity duration-500 ${
+                    className={`inline text-blue-500 mb-2 transition-opacity duration-500 ${
                         showCursor ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
@@ -64,7 +64,7 @@ function Intro(isDarkMode) {
                         <div className="flex flex-col md:flex-row gap-x-5 items-center justify-between"> <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className=" z-100 block h-48 w-48 md:h-40 md:w-40 md:mr-4 mb-auto shadow-lg border border-gray-500 dark:border-gray-100 dark:by-1er-gray-200"
+                className="rounded-xl z-100 block h-48 w-48 md:h-40 md:w-40 md:mr-4 mb-auto shadow-lg border-2  border-gray-500 dark:border-black dark:by-1er-gray-200"
             />             <div className="flex flex-col">
                         <p className="md:mt-0 mt-8">
                         <b>Computer Science</b> and <b>Interactive Design</b> undergraduate at the <b>University of Pittsburgh</b>, with a passion for <b>software development</b> and <b>human-computer interaction</b>.
