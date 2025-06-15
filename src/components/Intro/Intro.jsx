@@ -44,7 +44,7 @@ function Intro(isDarkMode) {
             <h1 className="md:hidden font-medium text-xl mt-2">Pittsburgh, PA</h1>
             <h1 className="md:hidden font-medium text-xl">remysedlak@gmail.com</h1>
             {/* Typing out name for big displays */}
-            <h1 className="hidden md:inline text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className="hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
                     className={`flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
@@ -65,12 +65,12 @@ function Intro(isDarkMode) {
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="justify-around w-full rounded-md p-4 ">
                     
-                    <h4 className="shadow-lg border-2 border-gray-500 dark:bg-gray-800 bg-gray-100 bg-opacity-80  text-base text-lg md:text-2xl lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-2 ">
+                    <h4 className="shadow-lg border-2 border-gray-500 dark:bg-gray-800 bg-gray-100 bg-opacity-80 text-base text-lg md:text-lg lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-2 ">
                         <div className="md:flex-row gap-x-8 items-center justify-between"> 
                             <img
                                 src="/assets/remysedlak_image.jpg"
                                 alt="Remy Sedlak"
-                                className="float-right ml-4 mb-4 md:mb-0 z-100 block h-40 w-40 md:h-48 md:w-48 mb-auto shadow-lg border-2  border-gray-500 dark:by-1er-gray-200"
+                                className="float-right ml-4 mb-4 md:mb-0 z-100 block h-40 w-40 md:h-36 md:w-36 lg:w-48 lg:h-48 mb-auto shadow-lg border-2  border-gray-500 dark:by-1er-gray-200"
                             />             
                             <p className="md:mt-0 ">
                                 <b>Computer Science</b> and <b>Interactive Design</b> student at the <b>University of Pittsburgh</b>, with a passion for <b>software development</b>, <b>audio processing</b>, and <b>human-computer interaction</b>.
