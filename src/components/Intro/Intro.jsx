@@ -40,7 +40,7 @@ function Intro(isDarkMode) {
 
     return (
         <div className="relative flex  justify-center flex-col text-center text-black dark:text-gray-300  pt-8 transition-all duration-400">
-            <h1 className="md:hidden font-semibold text-5xl">Remy Sedlak</h1>
+            <h1 className="md:hidden font-semibold text-5xl mt-8 md:mt-0">Remy Sedlak</h1>
             <h1 className="md:hidden font-medium text-xl mt-2">Pittsburgh, PA</h1>
              <h1 className="md:hidden font-medium text-xl">remysedlak@gmail.com</h1>
             <h1 className="hidden md:inline text-3xl  xs:text-4xl sm:text-4xl md:text-5xl lg:6xl md:my-6 font-base items-center flex flex-row justify-center">
