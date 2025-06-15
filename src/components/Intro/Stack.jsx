@@ -8,7 +8,7 @@ const Stack = () => {
             <div className="flex flex-row  md:flex md:flex-col justify-left w-full rounded-md text-center pb-2 ">
                 
                 <div className="justift-center tems-center flex flex-row  h-8  sm:my-4 my-4  md:my-4 lg:mt-24 xl:mt-2 xxl:mt-28">
-                    <h1 className="font-medium text-left md:text-center text-2xl md:text-3xl  ml-2 mr-8  mt-1 ">Stack:</h1>
+                    <h1 className="font-medium text-left md:text-center text-2xl md:text-3xl  ml-2 md:mr-8  mt-1 ">Stack:</h1>
                     <div className=" justify-center flex flex-wrap sm:flex-row md:flex-row lg:flex-grid justify-right gap-x-2 gap-y-2 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full lg:w-full mx-auto">
                         <a target="_blank" href="https://nextjs.org/" className='hover:opacity-100 w-12 h-12 md:w-20 md:h-16 opacity-80'>
                             <StackIcon name="nextjs2" />
