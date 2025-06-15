@@ -3,7 +3,7 @@ import Title from './Title';
 function PortfolioItem({ imgUrl, title, stack, link, desc }) {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className="relative group border-2 rounded-lg overflow-hidden border-black">
+        <div className="relative group border-2  overflow-hidden border-black">
             <div className="flex flex-row items-center justify-between top-0 left-0 w-full bg-gray-100 dark:bg-gray-300 bg-opacity-100 text-black border-b-2 border-black text-left py-1">
                 <div className="flex items-center gap-x-2 pl-4">
                     <div className="h-3 w-3 bg-red-500 rounded-full border border-black"></div>
