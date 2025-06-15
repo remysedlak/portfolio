@@ -68,7 +68,7 @@ function Intro(isDarkMode) {
                         <div className="md:flex-row gap-x-8 items-center justify-between"> <img
                 src="/assets/remysedlak_image.jpg"
                 alt="Remy Sedlak"
-                className="float-right ml-4 mb-4 md:mb-0 rounded-xl z-100 block h-40 w-40 md:h-48 md:w-48 md:mr-4 mb-auto shadow-lg border-2  border-gray-200 dark:border-black dark:by-1er-gray-200"
+                className="float-right ml-4 mb-4 md:mb-0 rounded-xl z-100 block h-40 w-40 md:h-48 md:w-48 md:mr-4 mb-auto shadow-lg border-2  border-gray-500 dark:by-1er-gray-200"
             />             
                         <p className="md:mt-0 ">
                         <b>Computer Science</b> and <b>Interactive Design</b> student at the <b>University of Pittsburgh</b>, with a passion for <b>software development</b>, <b>audio processing</b>, and <b>human-computer interaction</b>.
