@@ -67,7 +67,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
                     >
                         LinkedIn
                     </button>
-                    <a href="mailto:yourname@example.com" className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500">Email</a>
+                    <a href="mailto:remysedlak@gmail.com" className="hover:text-blue-600 hover:underline text-black dark:text-gray-300 dark:hover:text-blue-500">Email</a>
                     <button
                         onClick={() =>
                             window.open(
