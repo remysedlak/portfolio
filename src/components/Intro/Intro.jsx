@@ -39,14 +39,14 @@ function Intro(isDarkMode) {
     }, []);
 
     return (
-        <div className="relative flex flex-col justify-center text-center text-black dark:text-gray-300  pt-8 transition-all duration-400">
+        <div className="relative flex flex-col justify-center text-center text-black dark:text-gray-300 pt-8 transition-all duration-400 ">
             <h1 className="md:hidden font-semibold text-5xl mt-8 md:mt-0">Remy Sedlak</h1>
             <h1 className="md:hidden font-medium text-xl mt-2">Pittsburgh, PA</h1>
             <h1 className="md:hidden font-medium text-xl">remysedlak@gmail.com</h1>
             {/* Typing out name for big displays */}
-            <h1 className="hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className=" hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
-                    className={`flex items-center font-semibold justify-center transition-all duration-500 ${
+                    className={`xl:mt-12 flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
                     }`}
                 >
