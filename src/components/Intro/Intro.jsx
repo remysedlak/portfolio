@@ -46,7 +46,7 @@ function Intro(isDarkMode) {
             {/* Typing out name for big displays */}
             <h1 className=" hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:my-6 font-base items-center flex flex-row justify-center">
                 <div
-                    className={`xl:mt-12 flex items-center font-semibold justify-center transition-all duration-500 ${
+                    className={` flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
                     }`}
                 >
