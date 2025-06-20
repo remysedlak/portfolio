@@ -4,7 +4,7 @@ import Title from '../Title'
 
 const Stack = () => {
     return (
-        <div className="md:pb-8 relative w-200 mx-auto max-w-lg md:max-w-3xl bg-gray-200 dark:bg-gray-800 bg-opacity-80 shadow-lg md:w-600 md:p-4 border-2 border-gray-500  mt-2  text-center  flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
+        <div className="md:pb-8 relative w-200 mx-auto max-w-lg md:max-w-3xl bg-gray-100 dark:bg-gray-800 bg-opacity-80 shadow-lg md:w-600 md:p-4 border-2 border-gray-500  mt-2  text-center  flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="flex flex-row  md:flex md:flex-col w-full rounded-md text-center pb-2 ">
                 
                 <div className="justify-center items-center flex flex-row  h-9  mt-3 md:mt-6">
