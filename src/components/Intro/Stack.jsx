@@ -4,13 +4,13 @@ import Title from '../Title'
 
 const Stack = () => {
     return (
-        <div className="md:pb-8 relative w-200 mx-auto max-w-lg md:max-w-3xl bg-gray-100 dark:bg-gray-800 bg-opacity-100 shadow-lg md:w-600 md:p-4 border-2 border-gray-500  mt-2  text-center  flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
+        <div className="md:pb-8 relative w-200 mx-auto max-w-lg md:max-w-3xl bg-gray-100 dark:bg-gray-800 bg-opacity-100 shadow-lg md:w-600 md:p-4 border  border-black dark:border-gray-600  mt-2  text-center  flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
             <div className="flex flex-row  md:flex md:flex-col w-full rounded-md text-center pb-2 ">
                 
                 <div className="justify-center items-center flex flex-row  h-9  mt-3 md:mt-6">
-                    <h1 className="font-medium justify-center text-left md:text-center text-xl sm:text-2xl md:text-3xl  ml-2 sm:mr-4  md:mr-8 mr-2  ">Stack:</h1>
+                    <h1 className="font-medium justify-center text-left md:text-center text-xl sm:text-2xl md:text-2xl  ml-2 sm:mr-4  md:mr-6 mr-2  ">Stack:</h1>
                     {/* list of icons */}
-                    <div className=" justify-center flex flex-row  sm:flex-row md:flex-row lg:flex-grid items-center gap-x-2 gap-y-2 sm:gap-x-3 sm:gap-y-3 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 w-full lg:w-full mx-auto">
+                    <div className=" justify-center flex flex-row  sm:flex-row md:flex-row lg:flex-grid items-center gap-x-2 gap-y-2 sm:gap-x-3 sm:gap-y-3 md:gap-x-2 md:gap-y-3 lg:gap-x-4 lg:gap-y-4 xl:gap-x-6 xl:gap-y-6  w-full lg:w-full mx-auto">
                         <a target="_blank" href="https://nextjs.org/" className='hover:opacity-100 h-9 w-9 sm:w-12 sm:h-12 md:w-16 md:h-16 opacity-80'>
                             <StackIcon name="nextjs2" />
                         </a>

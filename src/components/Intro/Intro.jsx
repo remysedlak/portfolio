@@ -44,7 +44,7 @@ function Intro(isDarkMode) {
             <h1 className="md:hidden font-medium text-xl mt-2">Pittsburgh, PA</h1>
             <h1 className="md:hidden font-medium text-xl">remysedlak@gmail.com</h1>
             {/* Typing out name for big displays */}
-            <h1 className=" hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:my-6 font-base items-center flex flex-row justify-center">
+            <h1 className=" hidden md:inline text-xl xs:text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl md:my-3 font-base items-center flex flex-row justify-center">
                 <div
                     className={` flex items-center font-semibold justify-center transition-all duration-500 ${
                         left ? 'ml-8' : 'ml-8'
@@ -62,18 +62,22 @@ function Intro(isDarkMode) {
                 
             </h1>
             {/* Section with picture and text */}
-            <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
+            <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-8 md:mx-10">
                 <div className="justify-around w-full rounded-md p-4 ">
                     
-                    <h4 className="shadow-lg border-2 border-gray-500 dark:bg-gray-800 bg-gray-100 bg-opacity-100 text-base text-lg md:text-lg lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-2 ">
+                    <h4 className="shadow-lg border  border-black dark:border-gray-600 dark:bg-gray-800 bg-gray-100 bg-opacity-100 text-base text-lg md:text-lg lg:text-xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-4 ">
                         <div className="md:flex-row gap-x-8 items-center justify-between"> 
                             <img
                                 src="/assets/remysedlak_image.jpg"
                                 alt="Remy Sedlak"
-                                className="float-right ml-4 mb-4 md:mb-0 z-100 block h-40 w-40 md:h-28 md:w-28 lg:w-48 lg:h-48 mb-auto shadow-lg border-2  border-gray-500 dark:by-1er-gray-200"
+                                className="float-right ml-4 mb-4 md:mb-0 z-100 block h-40 w-40 lg:w-30 md:h-30  md:h-28 md:w-28 lg:w-40 lg:h-40 xl:w-38 xl:h-38 mb-auto shadow-lg border border-black  dark:border-gray-600"
                             />             
                             <p className="md:mt-0 ">
                                 <b>Computer Science</b> and <b>Interactive Design</b> student at the <b>University of Pittsburgh</b>, with a passion for <b>software development</b>, <b>audio processing</b>, and <b>human-computer interaction</b>.
+                            </p>  
+                            <br/>
+                            <p className="md:mt-0 ">
+                                Currently <b>interning </b> at <a className="hover:underline text-blue-500" href="https://agigrouponline.com/">AssetGenie Inc.</a> and <b>researching</b> at the <a className="text-blue-500 hover:underline" href="https://www.lrdc.pitt.edu/">LRDC</a>.
                             </p>  
                         </div>
                     </h4>

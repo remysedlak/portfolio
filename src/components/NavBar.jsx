@@ -39,7 +39,7 @@ const NavBar = ({ sideBar, toggleDarkMode, isDarkMode }) => {
     };
 
     return (
-        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700  fixed top-0 left-0 w-40 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-500  dark:border-black transition-colors duration-100 ease-in-out">
+        <nav className="justify-center items-center text-center text-black hidden md:block bg-gray-300 dark:bg-gray-700  fixed top-0 left-0 w-40 p-4  mx-auto my-auto h-full flex flex-col justify-center font-garamond border-r-2 border-gray-600 transition-colors duration-100 ease-in-out">
             <div
             style={{ backgroundImage: `url(/assets/vertical-cloth.png)`}}
             className="absolute inset-0 bg-repeat opacity-20 transition-opacity duration-500 ease-in-out transition-all duration-100 mix-blend-multiply pointer-events-none z-0"
