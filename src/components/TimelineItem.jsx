@@ -17,7 +17,7 @@ function TimelineItem({ year, title, duration, details }) {
    return (
       <ol className="flex flex-col md:flex-row relative border-l border-black dark:border-gray-300">
          {/* <li className="mb-10 ml-4 bg-gray-300 p-2 rounded-lg shadow-lg"> */}
-         <li className="mb-10 ml-4 bg-gray-100 dark:bg-gray-800  bg-opacity-80 p-2 shadow-lg border border-black">
+         <li className="mb-10 ml-4 bg-gray-100 dark:bg-gray-800  bg-opacity-100 p-2 shadow-lg border border-black">
             <div  
             className=" absolute w-3 h-3 bg-gray-300 dark:bg-gray-800  rounded-full mt-1.5 -left-1.5 border border-black dark:border-gray-300" />
             <div className="border-b border-gray-500 flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm ">

@@ -65,7 +65,7 @@ function Intro(isDarkMode) {
             <div className="text-center flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-12">
                 <div className="justify-around w-full rounded-md p-4 ">
                     
-                    <h4 className="shadow-lg border-2 border-gray-500 dark:bg-gray-800 bg-gray-100 bg-opacity-80 text-base text-lg md:text-lg lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-2 ">
+                    <h4 className="shadow-lg border-2 border-gray-500 dark:bg-gray-800 bg-gray-100 bg-opacity-100 text-base text-lg md:text-lg lg:text-2xl mt-2 max-w-lg md:max-w-3xl mx-auto text-left md:text-left p-2 ">
                         <div className="md:flex-row gap-x-8 items-center justify-between"> 
                             <img
                                 src="/assets/remysedlak_image.jpg"
